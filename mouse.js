@@ -1,4 +1,4 @@
-﻿/************** 
+/************** 
  * Mouse *
  **************/
 
@@ -151,6 +151,7 @@ var globalClock;
 var routineTimer;
 async function experimentInit() {
   // Initialize components for Routine "instructions"
+  document.addEventListener("contextmenu", event => event.preventDefault());
   instructionsClock = new util.Clock();
   instrutions_text = new visual.TextStim({
     win: psychoJS.window,
