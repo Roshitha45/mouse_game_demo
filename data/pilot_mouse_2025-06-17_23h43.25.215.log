@@ -1,0 +1,318 @@
+3.1727 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+3.1732 	INFO 	Loaded monitor calibration from ['2025_06_17 20:17']
+3.2728 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+3.2728 	INFO 	OpenGL version supported by driver is 4..
+3.2821 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019F41661120>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019F416610C0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000019F4171A9B0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(1520.0), np.float64(780.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.2822 	EXP 	window1: backgroundImage = ''
+3.2822 	EXP 	window1: backgroundFit = 'none'
+3.2963 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3059 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3155 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3239 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3329 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3418 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3509 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3603 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3691 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3780 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3874 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3967 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4062 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4150 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4242 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4338 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4428 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4516 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4603 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4699 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4782 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.4785 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.4826 	DEBUG 	Upload of Texture Font fontname complete
+3.4955 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5050 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5148 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5152 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.5185 	DEBUG 	Upload of Texture Font fontname complete
+3.5201 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+3.5201 	EXP 	window1: recordFrameIntervals = False
+3.6853 	EXP 	window1: recordFrameIntervals = True
+3.9350 	EXP 	Screen (0) actual frame rate measured at 59.36Hz
+3.9351 	EXP 	window1: recordFrameIntervals = False
+3.9511 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9600 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9689 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9771 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9858 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9943 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0042 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0129 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0214 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0320 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.0323 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.0327 	DEBUG 	Upload of Texture Font fontname complete
+4.2696 	INFO 	keyboard.Keyboard is using ptb backend.
+4.2698 	EXP 	mouse: status = STARTED
+4.2709 	EXP 	Created drawing_area = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=False, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([-0.6706, -0.749 , -0.749 ]), lineColorSpace='rgb', lineRGB=array([-0.6706, -0.749 , -0.749 ]), lineWidth=3.0, name='drawing_area', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), units='height', vertices=ndarray(...), win=Window(...))
+4.2709 	EXP 	Created brush = <psychopy.visual.brush.Brush object at 0x0000019F4B548190>
+4.2715 	EXP 	Created start_button = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, draggable=False, fillColor=array([0.8902, 0.7098, 0.6549]), fillColorSpace='rgb', fillRGB=array([0.8902, 0.7098, 0.6549]), interpolate=True, lineColor=array([ 0.6078, -0.2784, -0.2784]), lineColorSpace='rgb', lineRGB=array([ 0.6078, -0.2784, -0.2784]), lineWidth=4.0, name='start_button', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), size=array([0.4, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+4.2985 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-4.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='Start Experiment', units='height', win=Window(...), wrapWidth=1)
+4.3101 	EXP 	Created instrutions_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instrutions_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+4.3231 	EXP 	Created instructions_mouse_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/mouse_none.jpg', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='instructions_mouse_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+4.3267 	EXP 	Created mouse_none = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/mouse_none.jpg', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='mouse_none', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+4.3298 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+4.3339 	EXP 	Created mouse_none_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/mouse_none.jpg', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='mouse_none_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+4.3374 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+4.3412 	EXP 	Created thankyou_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='thankyou_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Done, Thank You!\n\n(Click mouse to end).', units='height', win=Window(...), wrapWidth=1)
+0.0080 	EXP 	brush: autoLog = True
+0.0080 	EXP 	brush: autoDraw = False
+0.0106 	EXP 	Resetting brush
+0.0267 	EXP 	drawing_area: autoDraw = True
+0.0267 	EXP 	brush: autoDraw = True
+0.0267 	EXP 	start_button: autoDraw = True
+0.0267 	EXP 	text: autoDraw = True
+2.3975 	DATA 	Mouse: Left button down, pos=(410,347)
+2.3986 	EXP 	Resetting brush parameter: brushPos.
+2.3986 	EXP 	Creating ShapeStim for brush
+3.3301 	DATA 	Mouse:  Left button up, pos=(498,169)
+24.2801 	DATA 	Mouse: Left button down, pos=(399,322)
+24.2807 	EXP 	Resetting brush parameter: brushPos.
+24.2808 	EXP 	Creating ShapeStim for brush
+25.7158 	DATA 	Mouse:  Left button up, pos=(338,283)
+26.7131 	DATA 	Mouse: Left button down, pos=(399,286)
+26.7140 	EXP 	Resetting brush parameter: brushPos.
+26.7140 	EXP 	Creating ShapeStim for brush
+28.6314 	DATA 	Mouse:  Left button up, pos=(377,300)
+29.8953 	DATA 	Mouse: Left button down, pos=(406,405)
+29.8959 	EXP 	Resetting brush parameter: brushPos.
+29.8959 	EXP 	Creating ShapeStim for brush
+30.5785 	DATA 	Mouse:  Left button up, pos=(362,420)
+33.4970 	DATA 	Mouse: Left button down, pos=(533,232)
+33.4978 	EXP 	Resetting brush parameter: brushPos.
+33.4978 	EXP 	Creating ShapeStim for brush
+35.9797 	DATA 	Mouse:  Left button up, pos=(492,201)
+48.7310 	DATA 	Mouse: Left button down, pos=(330,282)
+48.7319 	EXP 	Resetting brush parameter: brushPos.
+48.7319 	EXP 	Creating ShapeStim for brush
+49.8287 	DATA 	Mouse:  Left button up, pos=(412,208)
+50.8810 	DATA 	Mouse: Left button down, pos=(573,98)
+50.8821 	EXP 	Resetting brush parameter: brushPos.
+50.8822 	EXP 	Creating ShapeStim for brush
+50.9973 	DATA 	Mouse:  Left button up, pos=(573,98)
+55.0464 	DATA 	Mouse: Left button down, pos=(494,66)
+55.0591 	EXP 	drawing_area: autoDraw = False
+55.0591 	EXP 	brush: autoDraw = False
+55.0591 	EXP 	start_button: autoDraw = False
+55.0591 	EXP 	text: autoDraw = False
+55.0591 	EXP 	instrutions_text: autoDraw = True
+55.1330 	DATA 	Mouse:  Left button up, pos=(489,64)
+56.6470 	DATA 	Mouse: Left button down, pos=(531,185)
+56.6602 	EXP 	instrutions_text: autoDraw = False
+56.6602 	EXP 	instructions_mouse_2: autoDraw = True
+56.7289 	DATA 	Mouse:  Left button up, pos=(531,185)
+58.1622 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+58.1654 	DEBUG 	Read csv file with pandas: conditions.csv
+58.1662 	DEBUG 	Clearing unnamed columns from conditions.csv
+58.1664 	EXP 	Imported conditions.csv as conditions, 2 conditions, 1 params
+58.1665 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+58.1758 	EXP 	instructions_mouse_2: autoDraw = False
+58.1758 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+58.1758 	EXP 	mouse_none: autoDraw = True
+58.3605 	EXP 	image: autoDraw = True
+58.3758 	EXP 	mouse_none: autoDraw = False
+58.9437 	DATA 	Mouse: Right button down, pos=(425,345)
+58.9440 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+58.9582 	EXP 	mouse_none: autoDraw = False
+58.9582 	EXP 	image: autoDraw = False
+58.9582 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+58.9582 	EXP 	mouse_none: autoDraw = True
+59.0950 	DATA 	Mouse:  Right button up, pos=(427,349)
+59.1430 	EXP 	image: autoDraw = True
+59.1594 	EXP 	mouse_none: autoDraw = False
+59.4645 	DATA 	Mouse: Left button down, pos=(397,293)
+59.4650 	EXP 	New trial (rep=1, index=0): <Trial 2 (0 in rep 1) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 2, 'thisTrialN': 0, 'thisRepN': 1}>
+59.4752 	EXP 	mouse_none: autoDraw = False
+59.4752 	EXP 	image: autoDraw = False
+59.4752 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+59.4752 	EXP 	mouse_none: autoDraw = True
+59.5811 	DATA 	Mouse:  Left button up, pos=(397,293)
+59.6765 	EXP 	mouse_none: autoDraw = False
+59.6765 	EXP 	image: autoDraw = True
+59.9652 	DATA 	Mouse: Left button down, pos=(397,293)
+59.9824 	EXP 	New trial (rep=1, index=1): <Trial 3 (1 in rep 1) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 3, 'thisTrialN': 1, 'thisRepN': 1}>
+59.9921 	EXP 	mouse_none: autoDraw = False
+59.9921 	EXP 	image: autoDraw = False
+59.9921 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+59.9921 	EXP 	mouse_none: autoDraw = True
+60.0644 	DATA 	Mouse:  Left button up, pos=(397,293)
+60.1938 	EXP 	mouse_none: autoDraw = False
+60.1938 	EXP 	image: autoDraw = True
+60.6628 	DATA 	Mouse: Right button down, pos=(397,293)
+60.6632 	EXP 	New trial (rep=2, index=0): <Trial 4 (0 in rep 2) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 4, 'thisTrialN': 0, 'thisRepN': 2}>
+60.6750 	EXP 	mouse_none: autoDraw = False
+60.6750 	EXP 	image: autoDraw = False
+60.6750 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+60.6750 	EXP 	mouse_none: autoDraw = True
+60.7983 	DATA 	Mouse:  Right button up, pos=(397,293)
+60.8778 	EXP 	mouse_none: autoDraw = False
+60.8778 	EXP 	image: autoDraw = True
+61.1794 	DATA 	Mouse: Left button down, pos=(397,293)
+61.1798 	EXP 	New trial (rep=2, index=1): <Trial 5 (1 in rep 2) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 5, 'thisTrialN': 1, 'thisRepN': 2}>
+61.1922 	EXP 	mouse_none: autoDraw = False
+61.1922 	EXP 	image: autoDraw = False
+61.1922 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+61.1922 	EXP 	mouse_none: autoDraw = True
+61.2989 	DATA 	Mouse:  Left button up, pos=(397,293)
+61.3933 	EXP 	mouse_none: autoDraw = False
+61.3933 	EXP 	image: autoDraw = True
+61.6327 	DATA 	Mouse: Right button down, pos=(397,293)
+61.6335 	EXP 	New trial (rep=3, index=0): <Trial 6 (0 in rep 3) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 6, 'thisTrialN': 0, 'thisRepN': 3}>
+61.6417 	EXP 	mouse_none: autoDraw = False
+61.6417 	EXP 	image: autoDraw = False
+61.6417 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+61.6417 	EXP 	mouse_none: autoDraw = True
+61.7510 	DATA 	Mouse:  Right button up, pos=(397,293)
+61.8435 	EXP 	mouse_none: autoDraw = False
+61.8435 	EXP 	image: autoDraw = True
+62.0806 	DATA 	Mouse: Left button down, pos=(397,293)
+62.0813 	EXP 	New trial (rep=3, index=1): <Trial 7 (1 in rep 3) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 7, 'thisTrialN': 1, 'thisRepN': 3}>
+62.0921 	EXP 	mouse_none: autoDraw = False
+62.0921 	EXP 	image: autoDraw = False
+62.0921 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+62.0921 	EXP 	mouse_none: autoDraw = True
+62.1652 	DATA 	Mouse:  Left button up, pos=(397,293)
+62.2937 	EXP 	mouse_none: autoDraw = False
+62.2937 	EXP 	image: autoDraw = True
+62.5812 	DATA 	Mouse: Left button down, pos=(397,293)
+62.5818 	EXP 	New trial (rep=4, index=0): <Trial 8 (0 in rep 4) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 8, 'thisTrialN': 0, 'thisRepN': 4}>
+62.5916 	EXP 	mouse_none: autoDraw = False
+62.5916 	EXP 	image: autoDraw = False
+62.5916 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+62.5916 	EXP 	mouse_none: autoDraw = True
+62.6977 	DATA 	Mouse:  Left button up, pos=(397,293)
+62.7936 	EXP 	mouse_none: autoDraw = False
+62.7936 	EXP 	image: autoDraw = True
+63.1108 	DATA 	Mouse: Right button down, pos=(397,293)
+63.1112 	EXP 	New trial (rep=4, index=1): <Trial 9 (1 in rep 4) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 9, 'thisTrialN': 1, 'thisRepN': 4}>
+63.1252 	EXP 	mouse_none: autoDraw = False
+63.1252 	EXP 	image: autoDraw = False
+63.1252 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+63.1252 	EXP 	mouse_none: autoDraw = True
+63.2311 	DATA 	Mouse:  Right button up, pos=(397,293)
+63.3262 	EXP 	mouse_none: autoDraw = False
+63.3262 	EXP 	image: autoDraw = True
+63.6653 	DATA 	Mouse: Left button down, pos=(397,293)
+63.6693 	DEBUG 	Read csv file with pandas: conditions_letter.csv
+63.6699 	DEBUG 	Clearing unnamed columns from conditions_letter.csv
+63.6702 	EXP 	Imported conditions_letter.csv as conditions, 2 conditions, 1 params
+63.6703 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'mouse_stim_side': 'stimuli/mouse_left_letter.jpg', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+63.6915 	EXP 	mouse_none: autoDraw = False
+63.6915 	EXP 	image: autoDraw = False
+63.6915 	EXP 	image_2: image = 'stimuli/mouse_left_letter.jpg'
+63.6915 	EXP 	mouse_none_2: autoDraw = True
+63.7472 	DATA 	Mouse:  Left button up, pos=(397,293)
+63.8757 	EXP 	image_2: autoDraw = True
+63.8925 	EXP 	mouse_none_2: autoDraw = False
+63.9650 	DATA 	Mouse: Left button down, pos=(397,293)
+63.9657 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'mouse_stim_side': 'stimuli/mouse_right_letter.jpg', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+63.9755 	EXP 	mouse_none_2: autoDraw = False
+63.9755 	EXP 	image_2: autoDraw = False
+63.9755 	EXP 	image_2: image = 'stimuli/mouse_right_letter.jpg'
+63.9755 	EXP 	mouse_none_2: autoDraw = True
+64.0815 	DATA 	Mouse:  Left button up, pos=(397,293)
+64.1763 	EXP 	mouse_none_2: autoDraw = False
+64.1763 	EXP 	image_2: autoDraw = True
+64.6628 	DATA 	Mouse: Right button down, pos=(397,293)
+64.6632 	EXP 	New trial (rep=1, index=0): <Trial 2 (0 in rep 1) data={'mouse_stim_side': 'stimuli/mouse_right_letter.jpg', 'thisN': 2, 'thisTrialN': 0, 'thisRepN': 1}>
+64.6750 	EXP 	mouse_none_2: autoDraw = False
+64.6750 	EXP 	image_2: autoDraw = False
+64.6750 	EXP 	image_2: image = 'stimuli/mouse_right_letter.jpg'
+64.6750 	EXP 	mouse_none_2: autoDraw = True
+64.7499 	DATA 	Mouse:  Right button up, pos=(397,293)
+64.8761 	EXP 	mouse_none_2: autoDraw = False
+64.8761 	EXP 	image_2: autoDraw = True
+65.1769 	DATA 	Mouse: Left button down, pos=(397,293)
+65.1773 	EXP 	New trial (rep=1, index=1): <Trial 3 (1 in rep 1) data={'mouse_stim_side': 'stimuli/mouse_left_letter.jpg', 'thisN': 3, 'thisTrialN': 1, 'thisRepN': 1}>
+65.1919 	EXP 	mouse_none_2: autoDraw = False
+65.1919 	EXP 	image_2: autoDraw = False
+65.1919 	EXP 	image_2: image = 'stimuli/mouse_left_letter.jpg'
+65.1919 	EXP 	mouse_none_2: autoDraw = True
+65.2483 	DATA 	Mouse:  Left button up, pos=(397,293)
+65.3923 	EXP 	mouse_none_2: autoDraw = False
+65.3923 	EXP 	image_2: autoDraw = True
+65.5821 	DATA 	Mouse: Right button down, pos=(397,293)
+65.5831 	EXP 	New trial (rep=2, index=0): <Trial 4 (0 in rep 2) data={'mouse_stim_side': 'stimuli/mouse_left_letter.jpg', 'thisN': 4, 'thisTrialN': 0, 'thisRepN': 2}>
+65.5923 	EXP 	mouse_none_2: autoDraw = False
+65.5923 	EXP 	image_2: autoDraw = False
+65.5923 	EXP 	image_2: image = 'stimuli/mouse_left_letter.jpg'
+65.5923 	EXP 	mouse_none_2: autoDraw = True
+65.6972 	DATA 	Mouse:  Right button up, pos=(397,293)
+65.7927 	EXP 	mouse_none_2: autoDraw = False
+65.7927 	EXP 	image_2: autoDraw = True
+66.1962 	DATA 	Mouse: Left button down, pos=(397,293)
+66.1967 	EXP 	New trial (rep=2, index=1): <Trial 5 (1 in rep 2) data={'mouse_stim_side': 'stimuli/mouse_right_letter.jpg', 'thisN': 5, 'thisTrialN': 1, 'thisRepN': 2}>
+66.2084 	EXP 	mouse_none_2: autoDraw = False
+66.2084 	EXP 	image_2: autoDraw = False
+66.2084 	EXP 	image_2: image = 'stimuli/mouse_right_letter.jpg'
+66.2084 	EXP 	mouse_none_2: autoDraw = True
+66.2961 	DATA 	Mouse:  Left button up, pos=(397,293)
+66.4090 	EXP 	mouse_none_2: autoDraw = False
+66.4090 	EXP 	image_2: autoDraw = True
+66.6282 	DATA 	Mouse: Left button down, pos=(397,293)
+66.6287 	EXP 	New trial (rep=3, index=0): <Trial 6 (0 in rep 3) data={'mouse_stim_side': 'stimuli/mouse_right_letter.jpg', 'thisN': 6, 'thisTrialN': 0, 'thisRepN': 3}>
+66.6428 	EXP 	mouse_none_2: autoDraw = False
+66.6428 	EXP 	image_2: autoDraw = False
+66.6428 	EXP 	image_2: image = 'stimuli/mouse_right_letter.jpg'
+66.6428 	EXP 	mouse_none_2: autoDraw = True
+66.7963 	DATA 	Mouse:  Left button up, pos=(397,293)
+66.8424 	EXP 	mouse_none_2: autoDraw = False
+66.8424 	EXP 	image_2: autoDraw = True
+67.0441 	DATA 	Mouse: Right button down, pos=(397,293)
+67.0444 	EXP 	New trial (rep=3, index=1): <Trial 7 (1 in rep 3) data={'mouse_stim_side': 'stimuli/mouse_left_letter.jpg', 'thisN': 7, 'thisTrialN': 1, 'thisRepN': 3}>
+67.0583 	EXP 	mouse_none_2: autoDraw = False
+67.0583 	EXP 	image_2: autoDraw = False
+67.0583 	EXP 	image_2: image = 'stimuli/mouse_left_letter.jpg'
+67.0583 	EXP 	mouse_none_2: autoDraw = True
+67.1811 	DATA 	Mouse:  Right button up, pos=(397,293)
+67.2581 	EXP 	mouse_none_2: autoDraw = False
+67.2581 	EXP 	image_2: autoDraw = True
+67.3453 	DATA 	Mouse: Right button down, pos=(397,293)
+67.3459 	EXP 	New trial (rep=4, index=0): <Trial 8 (0 in rep 4) data={'mouse_stim_side': 'stimuli/mouse_right_letter.jpg', 'thisN': 8, 'thisTrialN': 0, 'thisRepN': 4}>
+67.3588 	EXP 	mouse_none_2: autoDraw = False
+67.3588 	EXP 	image_2: autoDraw = False
+67.3588 	EXP 	image_2: image = 'stimuli/mouse_right_letter.jpg'
+67.3588 	EXP 	mouse_none_2: autoDraw = True
+67.4302 	DATA 	Mouse:  Right button up, pos=(397,293)
+67.5592 	EXP 	mouse_none_2: autoDraw = False
+67.5592 	EXP 	image_2: autoDraw = True
+67.6299 	DATA 	Mouse: Left button down, pos=(397,293)
+67.6305 	EXP 	New trial (rep=4, index=1): <Trial 9 (1 in rep 4) data={'mouse_stim_side': 'stimuli/mouse_left_letter.jpg', 'thisN': 9, 'thisTrialN': 1, 'thisRepN': 4}>
+67.6426 	EXP 	mouse_none_2: autoDraw = False
+67.6426 	EXP 	image_2: autoDraw = False
+67.6426 	EXP 	image_2: image = 'stimuli/mouse_left_letter.jpg'
+67.6426 	EXP 	mouse_none_2: autoDraw = True
+67.7639 	DATA 	Mouse:  Left button up, pos=(397,293)
+67.8429 	EXP 	mouse_none_2: autoDraw = False
+67.8429 	EXP 	image_2: autoDraw = True
+68.4137 	DATA 	Mouse: Left button down, pos=(397,293)
+68.4164 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+68.4178 	DEBUG 	Read csv file with pandas: conditions.csv
+68.4183 	DEBUG 	Clearing unnamed columns from conditions.csv
+68.4185 	EXP 	Imported conditions.csv as conditions, 2 conditions, 1 params
+68.4187 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+68.4252 	EXP 	mouse_none_2: autoDraw = False
+68.4252 	EXP 	image_2: autoDraw = False
+68.4252 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+68.4252 	EXP 	mouse_none: autoDraw = True
+68.5139 	DATA 	Mouse:  Left button up, pos=(397,293)
+68.6266 	EXP 	mouse_none: autoDraw = False
+68.6266 	EXP 	image: autoDraw = True
+68.6489 	DATA 	Keypress: escape
+68.6528 	EXP 	Device response: <KeyPress from None: t=68.64466620003805, value=escape, duration=None>
+68.7786 	EXP 	Device response: <KeyPress from None: t=68.64466620003805, value=escape, duration=0.11917749996064231>
+68.7786 	EXP 	mouse: status = STOPPED
+68.7926 	EXP 	image: autoDraw = False
+68.7959 	EXP 	mouse: status = STOPPED
+68.8152 	INFO 	saved data to 'C:\\Users\\delgr\\Projects\\mouseGame\\data\\pilot_mouse_2025-06-17_23h43.25.215.csv'
+68.8161 	INFO 	saved data to C:\Users\delgr\Projects\mouseGame\data\pilot_mouse_2025-06-17_23h43.25.215.psydat
+68.8949 	DEBUG 	Saving data for mouse ExperimentHandler
+68.8965 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

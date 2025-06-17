@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.1.1),
-    on June 17, 2025, at 23:26
+    on June 17, 2025, at 23:47
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -386,6 +386,30 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
        buttonRequired=True,
        depth=-1
     )
+    start_button = visual.Rect(
+        win=win, name='start_button',
+        width=(0.4, 0.1)[0], height=(0.4, 0.1)[1],
+        ori=0.0, pos=(0, -0.4), draggable=False, anchor='center',
+        lineWidth=4.0,
+        colorSpace='rgb', lineColor=[0.6078, -0.2784, -0.2784], fillColor=[0.8902, 0.7098, 0.6549],
+        opacity=None, depth=-2.0, interpolate=True)
+    mouse_5 = event.Mouse(win=win)
+    x, y = [None, None]
+    mouse_5.mouseClock = core.Clock()
+    text = visual.TextStim(win=win, name='text',
+        text='Start Experiment',
+        font='Arial',
+        pos=(0, -0.4), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
+        color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-4.0);
+    draw_text = visual.TextStim(win=win, name='draw_text',
+        text='Draw Something Unique in the Box Below, then click "Start Experiment" to Start!',
+        font='Arial',
+        pos=(0, 0.4), draggable=False, height=0.04, wrapWidth=None, ori=0.0, 
+        color=[-1.0000, -1.0000, -1.0000], colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-5.0);
     
     # --- Initialize components for Routine "instructions" ---
     instrutions_text = visual.TextStim(win=win, name='instrutions_text',
@@ -495,12 +519,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # create an object to store info about Routine profilepic
     profilepic = data.Routine(
         name='profilepic',
-        components=[drawing_area, brush],
+        components=[drawing_area, brush, start_button, mouse_5, text, draw_text],
     )
     profilepic.status = NOT_STARTED
     continueRoutine = True
     # update component parameters for each repeat
     brush.reset()
+    # setup some python lists for storing info about the mouse_5
+    mouse_5.x = []
+    mouse_5.y = []
+    mouse_5.leftButton = []
+    mouse_5.midButton = []
+    mouse_5.rightButton = []
+    mouse_5.time = []
+    mouse_5.clicked_name = []
+    gotValidClick = False  # until a click is received
     # store start times for profilepic
     profilepic.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
     profilepic.tStart = globalClock.getTime(format='float')
@@ -523,7 +556,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # --- Run Routine "profilepic" ---
     profilepic.forceEnded = routineForceEnded = not continueRoutine
-    while continueRoutine and routineTimer.getTime() < 200.0:
+    while continueRoutine and routineTimer.getTime() < 201.0:
         # get current time
         t = routineTimer.getTime()
         tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -599,6 +632,161 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 brush.status = FINISHED
                 brush.setAutoDraw(False)
         
+        # *start_button* updates
+        
+        # if start_button is starting this frame...
+        if start_button.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            start_button.frameNStart = frameN  # exact frame index
+            start_button.tStart = t  # local t and not account for scr refresh
+            start_button.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(start_button, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'start_button.started')
+            # update status
+            start_button.status = STARTED
+            start_button.setAutoDraw(True)
+        
+        # if start_button is active this frame...
+        if start_button.status == STARTED:
+            # update params
+            pass
+        
+        # if start_button is stopping this frame...
+        if start_button.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > start_button.tStartRefresh + 200-frameTolerance:
+                # keep track of stop time/frame for later
+                start_button.tStop = t  # not accounting for scr refresh
+                start_button.tStopRefresh = tThisFlipGlobal  # on global time
+                start_button.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'start_button.stopped')
+                # update status
+                start_button.status = FINISHED
+                start_button.setAutoDraw(False)
+        # *mouse_5* updates
+        
+        # if mouse_5 is starting this frame...
+        if mouse_5.status == NOT_STARTED and t >= 1-frameTolerance:
+            # keep track of start time/frame for later
+            mouse_5.frameNStart = frameN  # exact frame index
+            mouse_5.tStart = t  # local t and not account for scr refresh
+            mouse_5.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(mouse_5, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.addData('mouse_5.started', t)
+            # update status
+            mouse_5.status = STARTED
+            mouse_5.mouseClock.reset()
+            prevButtonState = mouse_5.getPressed()  # if button is down already this ISN'T a new click
+        
+        # if mouse_5 is stopping this frame...
+        if mouse_5.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > mouse_5.tStartRefresh + 200-frameTolerance:
+                # keep track of stop time/frame for later
+                mouse_5.tStop = t  # not accounting for scr refresh
+                mouse_5.tStopRefresh = tThisFlipGlobal  # on global time
+                mouse_5.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.addData('mouse_5.stopped', t)
+                # update status
+                mouse_5.status = FINISHED
+        if mouse_5.status == STARTED:  # only update if started and not finished!
+            buttons = mouse_5.getPressed()
+            if buttons != prevButtonState:  # button state changed?
+                prevButtonState = buttons
+                if sum(buttons) > 0:  # state changed to a new click
+                    # check if the mouse was inside our 'clickable' objects
+                    gotValidClick = False
+                    clickableList = environmenttools.getFromNames(start_button, namespace=locals())
+                    for obj in clickableList:
+                        # is this object clicked on?
+                        if obj.contains(mouse_5):
+                            gotValidClick = True
+                            mouse_5.clicked_name.append(obj.name)
+                    if not gotValidClick:
+                        mouse_5.clicked_name.append(None)
+                    x, y = mouse_5.getPos()
+                    mouse_5.x.append(x)
+                    mouse_5.y.append(y)
+                    buttons = mouse_5.getPressed()
+                    mouse_5.leftButton.append(buttons[0])
+                    mouse_5.midButton.append(buttons[1])
+                    mouse_5.rightButton.append(buttons[2])
+                    mouse_5.time.append(mouse_5.mouseClock.getTime())
+                    if gotValidClick:
+                        continueRoutine = False  # end routine on response
+        
+        # *text* updates
+        
+        # if text is starting this frame...
+        if text.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text.frameNStart = frameN  # exact frame index
+            text.tStart = t  # local t and not account for scr refresh
+            text.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'text.started')
+            # update status
+            text.status = STARTED
+            text.setAutoDraw(True)
+        
+        # if text is active this frame...
+        if text.status == STARTED:
+            # update params
+            pass
+        
+        # if text is stopping this frame...
+        if text.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > text.tStartRefresh + 200-frameTolerance:
+                # keep track of stop time/frame for later
+                text.tStop = t  # not accounting for scr refresh
+                text.tStopRefresh = tThisFlipGlobal  # on global time
+                text.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'text.stopped')
+                # update status
+                text.status = FINISHED
+                text.setAutoDraw(False)
+        
+        # *draw_text* updates
+        
+        # if draw_text is starting this frame...
+        if draw_text.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            draw_text.frameNStart = frameN  # exact frame index
+            draw_text.tStart = t  # local t and not account for scr refresh
+            draw_text.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(draw_text, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'draw_text.started')
+            # update status
+            draw_text.status = STARTED
+            draw_text.setAutoDraw(True)
+        
+        # if draw_text is active this frame...
+        if draw_text.status == STARTED:
+            # update params
+            pass
+        
+        # if draw_text is stopping this frame...
+        if draw_text.status == STARTED:
+            # is it time to stop? (based on global clock, using actual start)
+            if tThisFlipGlobal > draw_text.tStartRefresh + 200-frameTolerance:
+                # keep track of stop time/frame for later
+                draw_text.tStop = t  # not accounting for scr refresh
+                draw_text.tStopRefresh = tThisFlipGlobal  # on global time
+                draw_text.frameNStop = frameN  # exact frame index
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'draw_text.stopped')
+                # update status
+                draw_text.status = FINISHED
+                draw_text.setAutoDraw(False)
+        
         # check for quit (typically the Esc key)
         if defaultKeyboard.getKeys(keyList=["escape"]):
             thisExp.status = FINISHED
@@ -638,13 +826,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     profilepic.tStop = globalClock.getTime(format='float')
     profilepic.tStopRefresh = tThisFlipGlobal
     thisExp.addData('profilepic.stopped', profilepic.tStop)
+    # store data for thisExp (ExperimentHandler)
+    thisExp.addData('mouse_5.x', mouse_5.x)
+    thisExp.addData('mouse_5.y', mouse_5.y)
+    thisExp.addData('mouse_5.leftButton', mouse_5.leftButton)
+    thisExp.addData('mouse_5.midButton', mouse_5.midButton)
+    thisExp.addData('mouse_5.rightButton', mouse_5.rightButton)
+    thisExp.addData('mouse_5.time', mouse_5.time)
+    thisExp.addData('mouse_5.clicked_name', mouse_5.clicked_name)
     # using non-slip timing so subtract the expected duration of this Routine (unless ended on request)
     if profilepic.maxDurationReached:
         routineTimer.addTime(-profilepic.maxDuration)
     elif profilepic.forceEnded:
         routineTimer.reset()
     else:
-        routineTimer.addTime(-200.000000)
+        routineTimer.addTime(-201.000000)
     thisExp.nextEntry()
     
     # --- Prepare to start Routine "instructions" ---

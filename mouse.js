@@ -47,6 +47,9 @@ psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.but
 // flowScheduler gets run if the participants presses OK
 flowScheduler.add(updateInfo); // add timeStamp
 flowScheduler.add(experimentInit);
+flowScheduler.add(profilepicRoutineBegin());
+flowScheduler.add(profilepicRoutineEachFrame());
+flowScheduler.add(profilepicRoutineEnd());
 flowScheduler.add(instructionsRoutineBegin());
 flowScheduler.add(instructionsRoutineEachFrame());
 flowScheduler.add(instructionsRoutineEnd());
@@ -131,6 +134,20 @@ async function updateInfo() {
 }
 
 
+var profilepicClock;
+var drawing_area;
+var brush;
+var getbrush;
+var brushReset;
+var brushCurrentShape;
+var brushBrushPos;
+var brushPointer;
+var brushAtStartPoint;
+var brushShapes;
+var start_button;
+var mouse_5;
+var text;
+var draw_text;
 var instructionsClock;
 var instrutions_text;
 var mouse_3;
@@ -150,8 +167,99 @@ var mouse_4;
 var globalClock;
 var routineTimer;
 async function experimentInit() {
+  // Initialize components for Routine "profilepic"
+  profilepicClock = new util.Clock();
+  drawing_area = new visual.Rect ({
+    win: psychoJS.window, name: 'drawing_area', 
+    width: [0.5, 0.5][0], height: [0.5, 0.5][1],
+    ori: 0.0, 
+    pos: [0, 0], 
+    draggable: false, 
+    anchor: 'center', 
+    lineWidth: 3.0, 
+    lineColor: new util.Color([(- 0.6706), (- 0.749), (- 0.749)]), 
+    fillColor: new util.Color('white'), 
+    colorSpace: 'rgb', 
+    opacity: undefined, 
+    depth: 0, 
+    interpolate: true, 
+  });
+  
+  brush = {};
+  getbrush = function() {
+    return ( new visual.ShapeStim({
+      win: psychoJS.window,
+      vertices: [[0, 0]],
+      lineWidth: 10.0,
+      lineColor: new util.Color([0.0824, (- 0.6627), 0.7725]),
+      opacity: 0.8,
+      closeShape: false,
+      autoLog: false,
+      depth: -1
+      }))
+  }
+  
+  brushReset = brush.reset = function() {
+    if (brushShapes.length > 0) {
+      for (let shape of brushShapes) {
+        shape.setAutoDraw(false);
+      }
+    }
+    brushAtStartPoint = false;
+    brushShapes = [];
+    brushCurrentShape = -1;
+  }
+  
+  brushCurrentShape = -1;
+  brushBrushPos = [];
+  brushPointer = new core.Mouse({win: psychoJS.window});
+  brushAtStartPoint = false;
+  brushShapes = [];
+  start_button = new visual.Rect ({
+    win: psychoJS.window, name: 'start_button', 
+    width: [0.4, 0.1][0], height: [0.4, 0.1][1],
+    ori: 0.0, 
+    pos: [0, (- 0.4)], 
+    draggable: false, 
+    anchor: 'center', 
+    lineWidth: 4.0, 
+    lineColor: new util.Color([0.6078, (- 0.2784), (- 0.2784)]), 
+    fillColor: new util.Color([0.8902, 0.7098, 0.6549]), 
+    colorSpace: 'rgb', 
+    opacity: undefined, 
+    depth: -2, 
+    interpolate: true, 
+  });
+  
+  mouse_5 = new core.Mouse({
+    win: psychoJS.window,
+  });
+  mouse_5.mouseClock = new util.Clock();
+  text = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'text',
+    text: 'Start Experiment',
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, (- 0.4)], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: undefined,
+    depth: -4.0 
+  });
+  
+  draw_text = new visual.TextStim({
+    win: psychoJS.window,
+    name: 'draw_text',
+    text: 'Draw Something Unique in the Box Below, then click "Start Experiment" to Start!',
+    font: 'Arial',
+    units: undefined, 
+    pos: [0, 0.4], draggable: false, height: 0.04,  wrapWidth: undefined, ori: 0.0,
+    languageStyle: 'LTR',
+    color: new util.Color([(- 1.0), (- 1.0), (- 1.0)]),  opacity: undefined,
+    depth: -5.0 
+  });
+  
   // Initialize components for Routine "instructions"
-  document.addEventListener("contextmenu", event => event.preventDefault());
   instructionsClock = new util.Clock();
   instrutions_text = new visual.TextStim({
     win: psychoJS.window,
@@ -278,8 +386,296 @@ var t;
 var frameN;
 var continueRoutine;
 var routineForceEnded;
-var instructionsMaxDurationReached;
+var profilepicMaxDurationReached;
 var gotValidClick;
+var profilepicMaxDuration;
+var profilepicComponents;
+function profilepicRoutineBegin(snapshot) {
+  return async function () {
+    TrialHandler.fromSnapshot(snapshot); // ensure that .thisN vals are up to date
+    
+    //--- Prepare to start Routine 'profilepic' ---
+    t = 0;
+    frameN = -1;
+    continueRoutine = true; // until we're told otherwise
+    // keep track of whether this Routine was forcibly ended
+    routineForceEnded = false;
+    profilepicClock.reset(routineTimer.getTime());
+    routineTimer.add(201.000000);
+    profilepicMaxDurationReached = false;
+    // update component parameters for each repeat
+    brushReset();
+    // setup some python lists for storing info about the mouse_5
+    // current position of the mouse:
+    mouse_5.x = [];
+    mouse_5.y = [];
+    mouse_5.leftButton = [];
+    mouse_5.midButton = [];
+    mouse_5.rightButton = [];
+    mouse_5.time = [];
+    mouse_5.clicked_name = [];
+    gotValidClick = false; // until a click is received
+    psychoJS.experiment.addData('profilepic.started', globalClock.getTime());
+    profilepicMaxDuration = null
+    // keep track of which components have finished
+    profilepicComponents = [];
+    profilepicComponents.push(drawing_area);
+    profilepicComponents.push(brush);
+    profilepicComponents.push(start_button);
+    profilepicComponents.push(mouse_5);
+    profilepicComponents.push(text);
+    profilepicComponents.push(draw_text);
+    
+    for (const thisComponent of profilepicComponents)
+      if ('status' in thisComponent)
+        thisComponent.status = PsychoJS.Status.NOT_STARTED;
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var frameRemains;
+var prevButtonState;
+var _mouseButtons;
+var _mouseXYs;
+function profilepicRoutineEachFrame() {
+  return async function () {
+    //--- Loop for each frame of Routine 'profilepic' ---
+    // get current time
+    t = profilepicClock.getTime();
+    frameN = frameN + 1;// number of completed frames (so 0 is the first frame)
+    // update/draw components on each frame
+    
+    // *drawing_area* updates
+    if (t >= 0.0 && drawing_area.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      drawing_area.tStart = t;  // (not accounting for frame time here)
+      drawing_area.frameNStart = frameN;  // exact frame index
+      
+      drawing_area.setAutoDraw(true);
+    }
+    
+    
+    // if drawing_area is active this frame...
+    if (drawing_area.status === PsychoJS.Status.STARTED) {
+    }
+    
+    frameRemains = 0.0 + 200 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    if (drawing_area.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      // keep track of stop time/frame for later
+      drawing_area.tStop = t;  // not accounting for scr refresh
+      drawing_area.frameNStop = frameN;  // exact frame index
+      // update status
+      drawing_area.status = PsychoJS.Status.FINISHED;
+      drawing_area.setAutoDraw(false);
+    }
+    
+    if (brushPointer.getPressed()[0] === 1 && brushAtStartPoint != true) {
+      brushAtStartPoint = true;
+      brushBrushPos = [];
+      brushShapes.push(getbrush());
+      brushCurrentShape += 1;
+      brushShapes[brushCurrentShape].setAutoDraw(true);
+    }
+    if (brushPointer.getPressed()[0] === 1) {
+      brushBrushPos.push(brushPointer.getPos());
+      brushShapes[brushCurrentShape].setVertices(brushBrushPos);
+    } else {
+      brushAtStartPoint = false;
+    }
+    
+    // *start_button* updates
+    if (t >= 0.0 && start_button.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      start_button.tStart = t;  // (not accounting for frame time here)
+      start_button.frameNStart = frameN;  // exact frame index
+      
+      start_button.setAutoDraw(true);
+    }
+    
+    
+    // if start_button is active this frame...
+    if (start_button.status === PsychoJS.Status.STARTED) {
+    }
+    
+    frameRemains = 0.0 + 200 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    if (start_button.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      // keep track of stop time/frame for later
+      start_button.tStop = t;  // not accounting for scr refresh
+      start_button.frameNStop = frameN;  // exact frame index
+      // update status
+      start_button.status = PsychoJS.Status.FINISHED;
+      start_button.setAutoDraw(false);
+    }
+    
+    // *mouse_5* updates
+    if (t >= 1 && mouse_5.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      mouse_5.tStart = t;  // (not accounting for frame time here)
+      mouse_5.frameNStart = frameN;  // exact frame index
+      
+      mouse_5.status = PsychoJS.Status.STARTED;
+      mouse_5.mouseClock.reset();
+      prevButtonState = mouse_5.getPressed();  // if button is down already this ISN'T a new click
+    }
+    frameRemains = 1 + 200 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    if (mouse_5.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      // keep track of stop time/frame for later
+      mouse_5.tStop = t;  // not accounting for scr refresh
+      mouse_5.frameNStop = frameN;  // exact frame index
+      // update status
+      mouse_5.status = PsychoJS.Status.FINISHED;
+      mouse_5.status = PsychoJS.Status.FINISHED;
+    }
+    
+    // if mouse_5 is active this frame...
+    if (mouse_5.status === PsychoJS.Status.STARTED) {
+      _mouseButtons = mouse_5.getPressed();
+      if (!_mouseButtons.every( (e,i,) => (e == prevButtonState[i]) )) { // button state changed?
+        prevButtonState = _mouseButtons;
+        if (_mouseButtons.reduce( (e, acc) => (e+acc) ) > 0) { // state changed to a new click
+          // check if the mouse was inside our 'clickable' objects
+          gotValidClick = false;
+          mouse_5.clickableObjects = eval(start_button)
+          ;// make sure the mouse's clickable objects are an array
+          if (!Array.isArray(mouse_5.clickableObjects)) {
+              mouse_5.clickableObjects = [mouse_5.clickableObjects];
+          }
+          // iterate through clickable objects and check each
+          for (const obj of mouse_5.clickableObjects) {
+              if (obj.contains(mouse_5)) {
+                  gotValidClick = true;
+                  mouse_5.clicked_name.push(obj.name);
+              }
+          }
+          if (!gotValidClick) {
+              mouse_5.clicked_name.push(null);
+          }
+          _mouseXYs = mouse_5.getPos();
+          mouse_5.x.push(_mouseXYs[0]);
+          mouse_5.y.push(_mouseXYs[1]);
+          mouse_5.leftButton.push(_mouseButtons[0]);
+          mouse_5.midButton.push(_mouseButtons[1]);
+          mouse_5.rightButton.push(_mouseButtons[2]);
+          mouse_5.time.push(mouse_5.mouseClock.getTime());
+          if (gotValidClick === true) { // end routine on response
+            continueRoutine = false;
+          }
+        }
+      }
+    }
+    
+    // *text* updates
+    if (t >= 0.0 && text.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      text.tStart = t;  // (not accounting for frame time here)
+      text.frameNStart = frameN;  // exact frame index
+      
+      text.setAutoDraw(true);
+    }
+    
+    
+    // if text is active this frame...
+    if (text.status === PsychoJS.Status.STARTED) {
+    }
+    
+    frameRemains = 0.0 + 200 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    if (text.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      // keep track of stop time/frame for later
+      text.tStop = t;  // not accounting for scr refresh
+      text.frameNStop = frameN;  // exact frame index
+      // update status
+      text.status = PsychoJS.Status.FINISHED;
+      text.setAutoDraw(false);
+    }
+    
+    
+    // *draw_text* updates
+    if (t >= 0.0 && draw_text.status === PsychoJS.Status.NOT_STARTED) {
+      // keep track of start time/frame for later
+      draw_text.tStart = t;  // (not accounting for frame time here)
+      draw_text.frameNStart = frameN;  // exact frame index
+      
+      draw_text.setAutoDraw(true);
+    }
+    
+    
+    // if draw_text is active this frame...
+    if (draw_text.status === PsychoJS.Status.STARTED) {
+    }
+    
+    frameRemains = 0.0 + 200 - psychoJS.window.monitorFramePeriod * 0.75;// most of one frame period left
+    if (draw_text.status === PsychoJS.Status.STARTED && t >= frameRemains) {
+      // keep track of stop time/frame for later
+      draw_text.tStop = t;  // not accounting for scr refresh
+      draw_text.frameNStop = frameN;  // exact frame index
+      // update status
+      draw_text.status = PsychoJS.Status.FINISHED;
+      draw_text.setAutoDraw(false);
+    }
+    
+    // check for quit (typically the Esc key)
+    if (psychoJS.experiment.experimentEnded || psychoJS.eventManager.getKeys({keyList:['escape']}).length > 0) {
+      return quitPsychoJS('The [Escape] key was pressed. Goodbye!', false);
+    }
+    
+    // check if the Routine should terminate
+    if (!continueRoutine) {  // a component has requested a forced-end of Routine
+      routineForceEnded = true;
+      return Scheduler.Event.NEXT;
+    }
+    
+    continueRoutine = false;  // reverts to True if at least one component still running
+    for (const thisComponent of profilepicComponents)
+      if ('status' in thisComponent && thisComponent.status !== PsychoJS.Status.FINISHED) {
+        continueRoutine = true;
+        break;
+      }
+    
+    // refresh the screen if continuing
+    if (continueRoutine && routineTimer.getTime() > 0) {
+      return Scheduler.Event.FLIP_REPEAT;
+    } else {
+      return Scheduler.Event.NEXT;
+    }
+  };
+}
+
+
+function profilepicRoutineEnd(snapshot) {
+  return async function () {
+    //--- Ending Routine 'profilepic' ---
+    for (const thisComponent of profilepicComponents) {
+      if (typeof thisComponent.setAutoDraw === 'function') {
+        thisComponent.setAutoDraw(false);
+      }
+    }
+    psychoJS.experiment.addData('profilepic.stopped', globalClock.getTime());
+    // store data for psychoJS.experiment (ExperimentHandler)
+    psychoJS.experiment.addData('mouse_5.x', mouse_5.x);
+    psychoJS.experiment.addData('mouse_5.y', mouse_5.y);
+    psychoJS.experiment.addData('mouse_5.leftButton', mouse_5.leftButton);
+    psychoJS.experiment.addData('mouse_5.midButton', mouse_5.midButton);
+    psychoJS.experiment.addData('mouse_5.rightButton', mouse_5.rightButton);
+    psychoJS.experiment.addData('mouse_5.time', mouse_5.time);
+    psychoJS.experiment.addData('mouse_5.clicked_name', mouse_5.clicked_name);
+    
+    if (routineForceEnded) {
+        routineTimer.reset();} else if (profilepicMaxDurationReached) {
+        profilepicClock.add(profilepicMaxDuration);
+    } else {
+        profilepicClock.add(201.000000);
+    }
+    // Routines running outside a loop should always advance the datafile row
+    if (currentLoop === psychoJS.experiment) {
+      psychoJS.experiment.nextEntry(snapshot);
+    }
+    return Scheduler.Event.NEXT;
+  }
+}
+
+
+var instructionsMaxDurationReached;
 var instructionsMaxDuration;
 var instructionsComponents;
 function instructionsRoutineBegin(snapshot) {
@@ -320,10 +716,6 @@ function instructionsRoutineBegin(snapshot) {
 }
 
 
-var frameRemains;
-var prevButtonState;
-var _mouseButtons;
-var _mouseXYs;
 function instructionsRoutineEachFrame() {
   return async function () {
     //--- Loop for each frame of Routine 'instructions' ---
