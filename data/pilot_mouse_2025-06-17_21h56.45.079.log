@@ -1,0 +1,609 @@
+2.5860 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+2.5873 	INFO 	Loaded monitor calibration from ['2025_06_17 20:17']
+2.6733 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+2.6733 	INFO 	OpenGL version supported by driver is 4..
+2.6831 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A71F869B10>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001A71F869AB0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001A71F9173A0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(1520.0), np.float64(780.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+2.6831 	EXP 	window1: backgroundImage = ''
+2.6831 	EXP 	window1: backgroundFit = 'none'
+2.6983 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7079 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7173 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7265 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7361 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7451 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7546 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7642 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7735 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7827 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.7924 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8020 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8113 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8208 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8300 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8397 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8493 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8590 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8688 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8786 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8881 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.8884 	DEBUG 	Uploading Texture Font fontname to graphics card
+2.8920 	DEBUG 	Upload of Texture Font fontname complete
+2.9044 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.9149 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.9246 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+2.9249 	DEBUG 	Uploading Texture Font fontname to graphics card
+2.9279 	DEBUG 	Upload of Texture Font fontname complete
+2.9295 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+2.9295 	EXP 	window1: recordFrameIntervals = False
+3.1004 	EXP 	window1: recordFrameIntervals = True
+3.2834 	EXP 	Screen (0) actual frame rate measured at 60.03Hz
+3.2834 	EXP 	window1: recordFrameIntervals = False
+3.2961 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3060 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3156 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3252 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3351 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3435 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3519 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3612 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3706 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3793 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.3796 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.3800 	DEBUG 	Upload of Texture Font fontname complete
+3.6363 	INFO 	keyboard.Keyboard is using ptb backend.
+3.6364 	EXP 	mouse: status = STARTED
+3.6523 	EXP 	Created mouse_none = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/mouse_none.jpg', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='mouse_none', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+3.6558 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='default.png', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+0.0141 	DEBUG 	Read csv file with pandas: conditions.csv
+0.0147 	DEBUG 	Clearing unnamed columns from conditions.csv
+0.0149 	EXP 	Imported conditions.csv as conditions, 2 conditions, 1 params
+0.0152 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0283 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+0.0283 	EXP 	mouse_none: autoDraw = True
+0.2122 	EXP 	image: autoDraw = True
+0.2284 	EXP 	mouse_none: autoDraw = False
+0.7477 	DATA 	Mouse: Right button down, pos=(216,476)
+0.7481 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+0.7615 	EXP 	mouse_none: autoDraw = False
+0.7615 	EXP 	image: autoDraw = False
+0.7615 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+0.7615 	EXP 	mouse_none: autoDraw = True
+0.8314 	DATA 	Mouse:  Right button up, pos=(216,476)
+0.9633 	EXP 	mouse_none: autoDraw = False
+0.9633 	EXP 	image: autoDraw = True
+1.2310 	DATA 	Mouse: Left button down, pos=(216,476)
+1.2463 	EXP 	New trial (rep=1, index=0): <Trial 2 (0 in rep 1) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 2, 'thisTrialN': 0, 'thisRepN': 1}>
+1.2612 	EXP 	mouse_none: autoDraw = False
+1.2612 	EXP 	image: autoDraw = False
+1.2612 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+1.2612 	EXP 	mouse_none: autoDraw = True
+1.3478 	DATA 	Mouse:  Left button up, pos=(216,476)
+1.4625 	EXP 	mouse_none: autoDraw = False
+1.4625 	EXP 	image: autoDraw = True
+1.7813 	DATA 	Mouse: Right button down, pos=(216,476)
+1.7818 	EXP 	New trial (rep=1, index=1): <Trial 3 (1 in rep 1) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 3, 'thisTrialN': 1, 'thisRepN': 1}>
+1.7955 	EXP 	mouse_none: autoDraw = False
+1.7955 	EXP 	image: autoDraw = False
+1.7955 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+1.7955 	EXP 	mouse_none: autoDraw = True
+1.9333 	DATA 	Mouse:  Right button up, pos=(216,476)
+1.9952 	EXP 	mouse_none: autoDraw = False
+1.9952 	EXP 	image: autoDraw = True
+2.1974 	DATA 	Mouse: Left button down, pos=(216,476)
+2.1978 	EXP 	New trial (rep=2, index=0): <Trial 4 (0 in rep 2) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 4, 'thisTrialN': 0, 'thisRepN': 2}>
+2.2110 	EXP 	mouse_none: autoDraw = False
+2.2110 	EXP 	image: autoDraw = False
+2.2110 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+2.2110 	EXP 	mouse_none: autoDraw = True
+2.2969 	DATA 	Mouse:  Left button up, pos=(216,476)
+2.4114 	EXP 	mouse_none: autoDraw = False
+2.4114 	EXP 	image: autoDraw = True
+2.6491 	DATA 	Mouse: Right button down, pos=(216,476)
+2.6495 	EXP 	New trial (rep=2, index=1): <Trial 5 (1 in rep 2) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 5, 'thisTrialN': 1, 'thisRepN': 2}>
+2.6613 	EXP 	mouse_none: autoDraw = False
+2.6613 	EXP 	image: autoDraw = False
+2.6613 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+2.6613 	EXP 	mouse_none: autoDraw = True
+2.7488 	DATA 	Mouse:  Right button up, pos=(216,476)
+2.8615 	EXP 	mouse_none: autoDraw = False
+2.8615 	EXP 	image: autoDraw = True
+3.0975 	DATA 	Mouse: Left button down, pos=(216,476)
+3.0978 	EXP 	New trial (rep=3, index=0): <Trial 6 (0 in rep 3) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 6, 'thisTrialN': 0, 'thisRepN': 3}>
+3.1110 	EXP 	mouse_none: autoDraw = False
+3.1110 	EXP 	image: autoDraw = False
+3.1110 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+3.1110 	EXP 	mouse_none: autoDraw = True
+3.1830 	DATA 	Mouse:  Left button up, pos=(216,476)
+3.3109 	EXP 	mouse_none: autoDraw = False
+3.3109 	EXP 	image: autoDraw = True
+3.6474 	DATA 	Mouse: Left button down, pos=(216,476)
+3.6477 	EXP 	New trial (rep=3, index=1): <Trial 7 (1 in rep 3) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 7, 'thisTrialN': 1, 'thisRepN': 3}>
+3.6612 	EXP 	mouse_none: autoDraw = False
+3.6612 	EXP 	image: autoDraw = False
+3.6612 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+3.6612 	EXP 	mouse_none: autoDraw = True
+3.7477 	DATA 	Mouse:  Left button up, pos=(216,476)
+3.8615 	EXP 	mouse_none: autoDraw = False
+3.8615 	EXP 	image: autoDraw = True
+4.1652 	DATA 	Mouse: Right button down, pos=(216,476)
+4.1656 	EXP 	New trial (rep=4, index=0): <Trial 8 (0 in rep 4) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 8, 'thisTrialN': 0, 'thisRepN': 4}>
+4.1777 	EXP 	mouse_none: autoDraw = False
+4.1777 	EXP 	image: autoDraw = False
+4.1777 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+4.1777 	EXP 	mouse_none: autoDraw = True
+4.2308 	DATA 	Mouse:  Right button up, pos=(216,476)
+4.3781 	EXP 	mouse_none: autoDraw = False
+4.3781 	EXP 	image: autoDraw = True
+4.6156 	DATA 	Mouse: Left button down, pos=(216,476)
+4.6164 	EXP 	New trial (rep=4, index=1): <Trial 9 (1 in rep 4) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 9, 'thisTrialN': 1, 'thisRepN': 4}>
+4.6280 	EXP 	mouse_none: autoDraw = False
+4.6280 	EXP 	image: autoDraw = False
+4.6280 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+4.6280 	EXP 	mouse_none: autoDraw = True
+4.7300 	DATA 	Mouse:  Left button up, pos=(216,476)
+4.8287 	EXP 	mouse_none: autoDraw = False
+4.8287 	EXP 	image: autoDraw = True
+5.2647 	DATA 	Mouse: Right button down, pos=(216,476)
+5.2650 	EXP 	New trial (rep=5, index=0): <Trial 10 (0 in rep 5) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 10, 'thisTrialN': 0, 'thisRepN': 5}>
+5.2780 	EXP 	mouse_none: autoDraw = False
+5.2780 	EXP 	image: autoDraw = False
+5.2780 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+5.2780 	EXP 	mouse_none: autoDraw = True
+5.3972 	DATA 	Mouse:  Right button up, pos=(216,476)
+5.4777 	EXP 	mouse_none: autoDraw = False
+5.4777 	EXP 	image: autoDraw = True
+5.8152 	DATA 	Mouse: Right button down, pos=(216,476)
+5.8156 	EXP 	New trial (rep=5, index=1): <Trial 11 (1 in rep 5) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 11, 'thisTrialN': 1, 'thisRepN': 5}>
+5.8283 	EXP 	mouse_none: autoDraw = False
+5.8283 	EXP 	image: autoDraw = False
+5.8283 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+5.8283 	EXP 	mouse_none: autoDraw = True
+5.9169 	DATA 	Mouse:  Right button up, pos=(216,476)
+6.0288 	EXP 	mouse_none: autoDraw = False
+6.0288 	EXP 	image: autoDraw = True
+6.2297 	DATA 	Mouse: Left button down, pos=(216,476)
+6.2300 	EXP 	New trial (rep=6, index=0): <Trial 12 (0 in rep 6) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 12, 'thisTrialN': 0, 'thisRepN': 6}>
+6.2443 	EXP 	mouse_none: autoDraw = False
+6.2443 	EXP 	image: autoDraw = False
+6.2443 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+6.2443 	EXP 	mouse_none: autoDraw = True
+6.3353 	DATA 	Mouse:  Left button up, pos=(216,476)
+6.4448 	EXP 	mouse_none: autoDraw = False
+6.4448 	EXP 	image: autoDraw = True
+6.6965 	DATA 	Mouse: Left button down, pos=(216,476)
+6.6968 	EXP 	New trial (rep=6, index=1): <Trial 13 (1 in rep 6) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 13, 'thisTrialN': 1, 'thisRepN': 6}>
+6.7116 	EXP 	mouse_none: autoDraw = False
+6.7116 	EXP 	image: autoDraw = False
+6.7116 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+6.7116 	EXP 	mouse_none: autoDraw = True
+6.7990 	DATA 	Mouse:  Left button up, pos=(216,476)
+6.9110 	EXP 	mouse_none: autoDraw = False
+6.9110 	EXP 	image: autoDraw = True
+7.1628 	DATA 	Mouse: Right button down, pos=(216,476)
+7.1631 	EXP 	New trial (rep=7, index=0): <Trial 14 (0 in rep 7) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 14, 'thisTrialN': 0, 'thisRepN': 7}>
+7.1780 	EXP 	mouse_none: autoDraw = False
+7.1780 	EXP 	image: autoDraw = False
+7.1780 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+7.1780 	EXP 	mouse_none: autoDraw = True
+7.2493 	DATA 	Mouse:  Right button up, pos=(216,476)
+7.3784 	EXP 	mouse_none: autoDraw = False
+7.3784 	EXP 	image: autoDraw = True
+7.5475 	DATA 	Mouse: Left button down, pos=(216,476)
+7.5479 	EXP 	New trial (rep=7, index=1): <Trial 15 (1 in rep 7) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 15, 'thisTrialN': 1, 'thisRepN': 7}>
+7.5609 	EXP 	mouse_none: autoDraw = False
+7.5609 	EXP 	image: autoDraw = False
+7.5609 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+7.5609 	EXP 	mouse_none: autoDraw = True
+7.6313 	DATA 	Mouse:  Left button up, pos=(216,476)
+7.7617 	EXP 	mouse_none: autoDraw = False
+7.7617 	EXP 	image: autoDraw = True
+7.9977 	DATA 	Mouse: Left button down, pos=(216,476)
+7.9980 	EXP 	New trial (rep=8, index=0): <Trial 16 (0 in rep 8) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 16, 'thisTrialN': 0, 'thisRepN': 8}>
+8.0113 	EXP 	mouse_none: autoDraw = False
+8.0113 	EXP 	image: autoDraw = False
+8.0113 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+8.0113 	EXP 	mouse_none: autoDraw = True
+8.1160 	DATA 	Mouse:  Left button up, pos=(216,476)
+8.2117 	EXP 	mouse_none: autoDraw = False
+8.2117 	EXP 	image: autoDraw = True
+8.4471 	DATA 	Mouse: Left button down, pos=(216,476)
+8.4475 	EXP 	New trial (rep=8, index=1): <Trial 17 (1 in rep 8) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 17, 'thisTrialN': 1, 'thisRepN': 8}>
+8.4611 	EXP 	mouse_none: autoDraw = False
+8.4611 	EXP 	image: autoDraw = False
+8.4611 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+8.4611 	EXP 	mouse_none: autoDraw = True
+8.5496 	DATA 	Mouse:  Left button up, pos=(216,476)
+8.6621 	EXP 	mouse_none: autoDraw = False
+8.6621 	EXP 	image: autoDraw = True
+8.9308 	DATA 	Mouse: Right button down, pos=(216,476)
+8.9313 	EXP 	New trial (rep=9, index=0): <Trial 18 (0 in rep 9) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 18, 'thisTrialN': 0, 'thisRepN': 9}>
+8.9447 	EXP 	mouse_none: autoDraw = False
+8.9447 	EXP 	image: autoDraw = False
+8.9447 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+8.9447 	EXP 	mouse_none: autoDraw = True
+9.0312 	DATA 	Mouse:  Right button up, pos=(216,476)
+9.1451 	EXP 	mouse_none: autoDraw = False
+9.1451 	EXP 	image: autoDraw = True
+9.2804 	DATA 	Mouse: Left button down, pos=(216,476)
+9.2808 	EXP 	New trial (rep=9, index=1): <Trial 19 (1 in rep 9) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 19, 'thisTrialN': 1, 'thisRepN': 9}>
+9.2945 	EXP 	mouse_none: autoDraw = False
+9.2945 	EXP 	image: autoDraw = False
+9.2945 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+9.2945 	EXP 	mouse_none: autoDraw = True
+9.3983 	DATA 	Mouse:  Left button up, pos=(216,476)
+9.4955 	EXP 	mouse_none: autoDraw = False
+9.4955 	EXP 	image: autoDraw = True
+9.6133 	DATA 	Mouse: Left button down, pos=(216,476)
+9.6136 	EXP 	New trial (rep=10, index=0): <Trial 20 (0 in rep 10) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 20, 'thisTrialN': 0, 'thisRepN': 10}>
+9.6280 	EXP 	mouse_none: autoDraw = False
+9.6280 	EXP 	image: autoDraw = False
+9.6280 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+9.6280 	EXP 	mouse_none: autoDraw = True
+9.6820 	DATA 	Mouse:  Left button up, pos=(216,476)
+9.7820 	DATA 	Mouse: Right button down, pos=(216,476)
+9.8280 	EXP 	mouse_none: autoDraw = False
+9.8280 	EXP 	image: autoDraw = True
+9.8814 	DATA 	Mouse:  Right button up, pos=(216,476)
+10.1825 	DATA 	Mouse: Right button down, pos=(216,476)
+10.1830 	EXP 	New trial (rep=10, index=1): <Trial 21 (1 in rep 10) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 21, 'thisTrialN': 1, 'thisRepN': 10}>
+10.1944 	EXP 	mouse_none: autoDraw = False
+10.1944 	EXP 	image: autoDraw = False
+10.1944 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+10.1944 	EXP 	mouse_none: autoDraw = True
+10.2828 	DATA 	Mouse:  Right button up, pos=(216,476)
+10.3954 	EXP 	mouse_none: autoDraw = False
+10.3954 	EXP 	image: autoDraw = True
+10.6480 	DATA 	Mouse: Left button down, pos=(216,476)
+10.6483 	EXP 	New trial (rep=11, index=0): <Trial 22 (0 in rep 11) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 22, 'thisTrialN': 0, 'thisRepN': 11}>
+10.6616 	EXP 	mouse_none: autoDraw = False
+10.6616 	EXP 	image: autoDraw = False
+10.6616 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+10.6616 	EXP 	mouse_none: autoDraw = True
+10.7480 	DATA 	Mouse:  Left button up, pos=(216,476)
+10.8632 	EXP 	mouse_none: autoDraw = False
+10.8632 	EXP 	image: autoDraw = True
+11.2297 	DATA 	Mouse: Right button down, pos=(225,465)
+11.2300 	EXP 	New trial (rep=11, index=1): <Trial 23 (1 in rep 11) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 23, 'thisTrialN': 1, 'thisRepN': 11}>
+11.2442 	EXP 	mouse_none: autoDraw = False
+11.2442 	EXP 	image: autoDraw = False
+11.2442 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+11.2442 	EXP 	mouse_none: autoDraw = True
+11.3332 	DATA 	Mouse:  Right button up, pos=(225,465)
+11.4458 	EXP 	mouse_none: autoDraw = False
+11.4458 	EXP 	image: autoDraw = True
+11.6132 	DATA 	Mouse: Left button down, pos=(225,465)
+11.6136 	EXP 	New trial (rep=12, index=0): <Trial 24 (0 in rep 12) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 24, 'thisTrialN': 0, 'thisRepN': 12}>
+11.6277 	EXP 	mouse_none: autoDraw = False
+11.6277 	EXP 	image: autoDraw = False
+11.6277 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+11.6277 	EXP 	mouse_none: autoDraw = True
+11.6984 	DATA 	Mouse:  Left button up, pos=(225,465)
+11.8296 	EXP 	mouse_none: autoDraw = False
+11.8296 	EXP 	image: autoDraw = True
+12.0355 	DATA 	Mouse: Left button down, pos=(225,465)
+12.0363 	EXP 	New trial (rep=12, index=1): <Trial 25 (1 in rep 12) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 25, 'thisTrialN': 1, 'thisRepN': 12}>
+12.0446 	EXP 	mouse_none: autoDraw = False
+12.0446 	EXP 	image: autoDraw = False
+12.0446 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+12.0446 	EXP 	mouse_none: autoDraw = True
+12.1671 	DATA 	Mouse:  Left button up, pos=(225,465)
+12.2451 	EXP 	mouse_none: autoDraw = False
+12.2451 	EXP 	image: autoDraw = True
+12.8805 	DATA 	Mouse: Right button down, pos=(424,288)
+12.8809 	EXP 	New trial (rep=13, index=0): <Trial 26 (0 in rep 13) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 26, 'thisTrialN': 0, 'thisRepN': 13}>
+12.8945 	EXP 	mouse_none: autoDraw = False
+12.8945 	EXP 	image: autoDraw = False
+12.8945 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+12.8945 	EXP 	mouse_none: autoDraw = True
+12.9995 	DATA 	Mouse:  Right button up, pos=(424,288)
+13.0959 	EXP 	mouse_none: autoDraw = False
+13.0959 	EXP 	image: autoDraw = True
+13.3336 	DATA 	Mouse: Left button down, pos=(424,288)
+13.3349 	EXP 	New trial (rep=13, index=1): <Trial 27 (1 in rep 13) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 27, 'thisTrialN': 1, 'thisRepN': 13}>
+13.3449 	EXP 	mouse_none: autoDraw = False
+13.3449 	EXP 	image: autoDraw = False
+13.3449 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+13.3449 	EXP 	mouse_none: autoDraw = True
+13.3837 	DATA 	Mouse:  Left button up, pos=(424,288)
+13.4496 	DATA 	Mouse: Right button down, pos=(424,288)
+13.5446 	EXP 	mouse_none: autoDraw = False
+13.5446 	EXP 	image: autoDraw = True
+13.5660 	DATA 	Mouse:  Right button up, pos=(424,288)
+13.8488 	DATA 	Mouse: Left button down, pos=(424,291)
+13.8492 	EXP 	New trial (rep=14, index=0): <Trial 28 (0 in rep 14) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 28, 'thisTrialN': 0, 'thisRepN': 14}>
+13.8612 	EXP 	mouse_none: autoDraw = False
+13.8612 	EXP 	image: autoDraw = False
+13.8612 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+13.8612 	EXP 	mouse_none: autoDraw = True
+13.9317 	DATA 	Mouse:  Left button up, pos=(424,291)
+14.0621 	EXP 	mouse_none: autoDraw = False
+14.0621 	EXP 	image: autoDraw = True
+14.3651 	DATA 	Mouse: Left button down, pos=(424,292)
+14.3654 	EXP 	New trial (rep=14, index=1): <Trial 29 (1 in rep 14) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 29, 'thisTrialN': 1, 'thisRepN': 14}>
+14.3789 	EXP 	mouse_none: autoDraw = False
+14.3789 	EXP 	image: autoDraw = False
+14.3789 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+14.3789 	EXP 	mouse_none: autoDraw = True
+14.4813 	DATA 	Mouse:  Left button up, pos=(424,292)
+14.5797 	EXP 	mouse_none: autoDraw = False
+14.5797 	EXP 	image: autoDraw = True
+14.7698 	DATA 	Mouse: Left button down, pos=(424,296)
+14.7704 	EXP 	New trial (rep=15, index=0): <Trial 30 (0 in rep 15) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 30, 'thisTrialN': 0, 'thisRepN': 15}>
+14.7781 	EXP 	mouse_none: autoDraw = False
+14.7781 	EXP 	image: autoDraw = False
+14.7781 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+14.7781 	EXP 	mouse_none: autoDraw = True
+14.8496 	DATA 	Mouse:  Left button up, pos=(424,296)
+14.9787 	EXP 	mouse_none: autoDraw = False
+14.9787 	EXP 	image: autoDraw = True
+14.9813 	DATA 	Mouse: Right button down, pos=(424,297)
+14.9816 	EXP 	New trial (rep=15, index=1): <Trial 31 (1 in rep 15) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 31, 'thisTrialN': 1, 'thisRepN': 15}>
+14.9946 	EXP 	mouse_none: autoDraw = False
+14.9946 	EXP 	image: autoDraw = False
+14.9946 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+14.9946 	EXP 	mouse_none: autoDraw = True
+15.1172 	DATA 	Mouse:  Right button up, pos=(424,297)
+15.1958 	EXP 	mouse_none: autoDraw = False
+15.1958 	EXP 	image: autoDraw = True
+15.4974 	DATA 	Mouse: Left button down, pos=(424,297)
+15.4979 	EXP 	New trial (rep=16, index=0): <Trial 32 (0 in rep 16) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 32, 'thisTrialN': 0, 'thisRepN': 16}>
+15.5115 	EXP 	mouse_none: autoDraw = False
+15.5115 	EXP 	image: autoDraw = False
+15.5115 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+15.5115 	EXP 	mouse_none: autoDraw = True
+15.6017 	DATA 	Mouse:  Left button up, pos=(424,297)
+15.7132 	EXP 	mouse_none: autoDraw = False
+15.7132 	EXP 	image: autoDraw = True
+15.9802 	DATA 	Mouse: Left button down, pos=(424,299)
+15.9806 	EXP 	New trial (rep=16, index=1): <Trial 33 (1 in rep 16) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 33, 'thisTrialN': 1, 'thisRepN': 16}>
+15.9956 	EXP 	mouse_none: autoDraw = False
+15.9956 	EXP 	image: autoDraw = False
+15.9956 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+15.9956 	EXP 	mouse_none: autoDraw = True
+16.0844 	DATA 	Mouse:  Left button up, pos=(424,299)
+16.1955 	EXP 	mouse_none: autoDraw = False
+16.1955 	EXP 	image: autoDraw = True
+16.3506 	DATA 	Mouse: Left button down, pos=(424,299)
+16.3511 	EXP 	New trial (rep=17, index=0): <Trial 34 (0 in rep 17) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 34, 'thisTrialN': 0, 'thisRepN': 17}>
+16.3613 	EXP 	mouse_none: autoDraw = False
+16.3613 	EXP 	image: autoDraw = False
+16.3613 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+16.3613 	EXP 	mouse_none: autoDraw = True
+16.4493 	DATA 	Mouse:  Left button up, pos=(424,299)
+16.5642 	EXP 	mouse_none: autoDraw = False
+16.5642 	EXP 	image: autoDraw = True
+16.5692 	DATA 	Mouse: Right button down, pos=(424,299)
+16.5834 	EXP 	New trial (rep=17, index=1): <Trial 35 (1 in rep 17) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 35, 'thisTrialN': 1, 'thisRepN': 17}>
+16.5953 	EXP 	mouse_none: autoDraw = False
+16.5953 	EXP 	image: autoDraw = False
+16.5953 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+16.5953 	EXP 	mouse_none: autoDraw = True
+16.7100 	DATA 	Mouse:  Right button up, pos=(424,299)
+16.7955 	EXP 	mouse_none: autoDraw = False
+16.7955 	EXP 	image: autoDraw = True
+17.0990 	DATA 	Mouse: Left button down, pos=(424,299)
+17.0995 	EXP 	New trial (rep=18, index=0): <Trial 36 (0 in rep 18) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 36, 'thisTrialN': 0, 'thisRepN': 18}>
+17.1115 	EXP 	mouse_none: autoDraw = False
+17.1115 	EXP 	image: autoDraw = False
+17.1115 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+17.1115 	EXP 	mouse_none: autoDraw = True
+17.2165 	DATA 	Mouse:  Left button up, pos=(424,299)
+17.3123 	EXP 	mouse_none: autoDraw = False
+17.3123 	EXP 	image: autoDraw = True
+17.5988 	DATA 	Mouse: Left button down, pos=(424,299)
+17.5994 	EXP 	New trial (rep=18, index=1): <Trial 37 (1 in rep 18) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 37, 'thisTrialN': 1, 'thisRepN': 18}>
+17.6115 	EXP 	mouse_none: autoDraw = False
+17.6115 	EXP 	image: autoDraw = False
+17.6115 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+17.6115 	EXP 	mouse_none: autoDraw = True
+17.7339 	DATA 	Mouse:  Left button up, pos=(424,299)
+17.8127 	EXP 	mouse_none: autoDraw = False
+17.8127 	EXP 	image: autoDraw = True
+18.0188 	DATA 	Mouse: Right button down, pos=(424,299)
+18.0355 	EXP 	New trial (rep=19, index=0): <Trial 38 (0 in rep 19) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 38, 'thisTrialN': 0, 'thisRepN': 19}>
+18.0445 	EXP 	mouse_none: autoDraw = False
+18.0445 	EXP 	image: autoDraw = False
+18.0445 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+18.0445 	EXP 	mouse_none: autoDraw = True
+18.1347 	DATA 	Mouse:  Right button up, pos=(424,299)
+18.2454 	EXP 	mouse_none: autoDraw = False
+18.2454 	EXP 	image: autoDraw = True
+18.4819 	DATA 	Mouse: Left button down, pos=(424,299)
+18.4825 	EXP 	New trial (rep=19, index=1): <Trial 39 (1 in rep 19) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 39, 'thisTrialN': 1, 'thisRepN': 19}>
+18.4946 	EXP 	mouse_none: autoDraw = False
+18.4946 	EXP 	image: autoDraw = False
+18.4946 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+18.4946 	EXP 	mouse_none: autoDraw = True
+18.6137 	DATA 	Mouse:  Left button up, pos=(424,299)
+18.6952 	EXP 	mouse_none: autoDraw = False
+18.6952 	EXP 	image: autoDraw = True
+18.8304 	DATA 	Mouse: Left button down, pos=(424,299)
+18.8308 	EXP 	New trial (rep=20, index=0): <Trial 40 (0 in rep 20) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 40, 'thisTrialN': 0, 'thisRepN': 20}>
+18.8445 	EXP 	mouse_none: autoDraw = False
+18.8445 	EXP 	image: autoDraw = False
+18.8445 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+18.8445 	EXP 	mouse_none: autoDraw = True
+18.9150 	DATA 	Mouse:  Left button up, pos=(424,299)
+19.0448 	EXP 	mouse_none: autoDraw = False
+19.0448 	EXP 	image: autoDraw = True
+19.2796 	DATA 	Mouse: Right button down, pos=(424,299)
+19.2798 	EXP 	New trial (rep=20, index=1): <Trial 41 (1 in rep 20) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 41, 'thisTrialN': 1, 'thisRepN': 20}>
+19.2942 	EXP 	mouse_none: autoDraw = False
+19.2942 	EXP 	image: autoDraw = False
+19.2942 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+19.2942 	EXP 	mouse_none: autoDraw = True
+19.3668 	DATA 	Mouse:  Right button up, pos=(424,299)
+19.4035 	DATA 	Mouse: Left button down, pos=(424,299)
+19.4785 	EXP 	image: autoDraw = True
+19.4946 	EXP 	mouse_none: autoDraw = False
+19.5310 	DATA 	Mouse:  Left button up, pos=(424,299)
+19.8822 	DATA 	Mouse: Left button down, pos=(424,299)
+19.8825 	EXP 	New trial (rep=21, index=0): <Trial 42 (0 in rep 21) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 42, 'thisTrialN': 0, 'thisRepN': 21}>
+19.8948 	EXP 	mouse_none: autoDraw = False
+19.8948 	EXP 	image: autoDraw = False
+19.8948 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+19.8948 	EXP 	mouse_none: autoDraw = True
+19.9840 	DATA 	Mouse:  Left button up, pos=(424,299)
+20.0953 	EXP 	mouse_none: autoDraw = False
+20.0953 	EXP 	image: autoDraw = True
+20.3495 	DATA 	Mouse: Left button down, pos=(424,299)
+20.3500 	EXP 	New trial (rep=21, index=1): <Trial 43 (1 in rep 21) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 43, 'thisTrialN': 1, 'thisRepN': 21}>
+20.3614 	EXP 	mouse_none: autoDraw = False
+20.3614 	EXP 	image: autoDraw = False
+20.3614 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+20.3614 	EXP 	mouse_none: autoDraw = True
+20.4525 	DATA 	Mouse:  Left button up, pos=(424,299)
+20.5611 	EXP 	mouse_none: autoDraw = False
+20.5611 	EXP 	image: autoDraw = True
+20.7979 	DATA 	Mouse: Right button down, pos=(424,299)
+20.7984 	EXP 	New trial (rep=22, index=0): <Trial 44 (0 in rep 22) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 44, 'thisTrialN': 0, 'thisRepN': 22}>
+20.8122 	EXP 	mouse_none: autoDraw = False
+20.8122 	EXP 	image: autoDraw = False
+20.8122 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+20.8122 	EXP 	mouse_none: autoDraw = True
+20.9151 	DATA 	Mouse:  Right button up, pos=(424,299)
+21.0125 	EXP 	mouse_none: autoDraw = False
+21.0125 	EXP 	image: autoDraw = True
+21.3141 	DATA 	Mouse: Right button down, pos=(424,299)
+21.3147 	EXP 	New trial (rep=22, index=1): <Trial 45 (1 in rep 22) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 45, 'thisTrialN': 1, 'thisRepN': 22}>
+21.3285 	EXP 	mouse_none: autoDraw = False
+21.3285 	EXP 	image: autoDraw = False
+21.3285 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+21.3285 	EXP 	mouse_none: autoDraw = True
+21.4317 	DATA 	Mouse:  Right button up, pos=(424,299)
+21.5291 	EXP 	mouse_none: autoDraw = False
+21.5291 	EXP 	image: autoDraw = True
+21.8143 	DATA 	Mouse: Left button down, pos=(424,299)
+21.8147 	EXP 	New trial (rep=23, index=0): <Trial 46 (0 in rep 23) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 46, 'thisTrialN': 0, 'thisRepN': 23}>
+21.8278 	EXP 	mouse_none: autoDraw = False
+21.8278 	EXP 	image: autoDraw = False
+21.8278 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+21.8278 	EXP 	mouse_none: autoDraw = True
+21.9352 	DATA 	Mouse:  Left button up, pos=(424,299)
+22.0285 	EXP 	mouse_none: autoDraw = False
+22.0285 	EXP 	image: autoDraw = True
+22.1988 	DATA 	Mouse: Left button down, pos=(424,299)
+22.1995 	EXP 	New trial (rep=23, index=1): <Trial 47 (1 in rep 23) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 47, 'thisTrialN': 1, 'thisRepN': 23}>
+22.2109 	EXP 	mouse_none: autoDraw = False
+22.2109 	EXP 	image: autoDraw = False
+22.2109 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+22.2109 	EXP 	mouse_none: autoDraw = True
+22.2964 	DATA 	Mouse:  Left button up, pos=(424,299)
+22.4110 	EXP 	mouse_none: autoDraw = False
+22.4110 	EXP 	image: autoDraw = True
+22.5846 	DATA 	Mouse: Right button down, pos=(424,299)
+22.5853 	EXP 	New trial (rep=24, index=0): <Trial 48 (0 in rep 24) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 48, 'thisTrialN': 0, 'thisRepN': 24}>
+22.5964 	EXP 	mouse_none: autoDraw = False
+22.5964 	EXP 	image: autoDraw = False
+22.5964 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+22.5964 	EXP 	mouse_none: autoDraw = True
+22.6999 	DATA 	Mouse:  Right button up, pos=(424,299)
+22.7947 	EXP 	mouse_none: autoDraw = False
+22.7947 	EXP 	image: autoDraw = True
+23.0976 	DATA 	Mouse: Right button down, pos=(424,299)
+23.0979 	EXP 	New trial (rep=24, index=1): <Trial 49 (1 in rep 24) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 49, 'thisTrialN': 1, 'thisRepN': 24}>
+23.1111 	EXP 	mouse_none: autoDraw = False
+23.1111 	EXP 	image: autoDraw = False
+23.1111 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+23.1111 	EXP 	mouse_none: autoDraw = True
+23.1994 	DATA 	Mouse:  Right button up, pos=(424,299)
+23.3129 	EXP 	mouse_none: autoDraw = False
+23.3129 	EXP 	image: autoDraw = True
+23.5159 	DATA 	Mouse: Left button down, pos=(424,299)
+23.5167 	EXP 	New trial (rep=25, index=0): <Trial 50 (0 in rep 25) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 50, 'thisTrialN': 0, 'thisRepN': 25}>
+23.5281 	EXP 	mouse_none: autoDraw = False
+23.5281 	EXP 	image: autoDraw = False
+23.5281 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+23.5281 	EXP 	mouse_none: autoDraw = True
+23.6170 	DATA 	Mouse:  Left button up, pos=(424,299)
+23.7285 	EXP 	mouse_none: autoDraw = False
+23.7285 	EXP 	image: autoDraw = True
+24.0152 	DATA 	Mouse: Left button down, pos=(424,299)
+24.0158 	EXP 	New trial (rep=25, index=1): <Trial 51 (1 in rep 25) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 51, 'thisTrialN': 1, 'thisRepN': 25}>
+24.0282 	EXP 	mouse_none: autoDraw = False
+24.0282 	EXP 	image: autoDraw = False
+24.0282 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+24.0282 	EXP 	mouse_none: autoDraw = True
+24.1316 	DATA 	Mouse:  Left button up, pos=(424,299)
+24.2276 	EXP 	mouse_none: autoDraw = False
+24.2276 	EXP 	image: autoDraw = True
+24.4165 	DATA 	Mouse: Left button down, pos=(424,299)
+24.4171 	EXP 	New trial (rep=26, index=0): <Trial 52 (0 in rep 26) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 52, 'thisTrialN': 0, 'thisRepN': 26}>
+24.4281 	EXP 	mouse_none: autoDraw = False
+24.4281 	EXP 	image: autoDraw = False
+24.4281 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+24.4281 	EXP 	mouse_none: autoDraw = True
+24.5149 	DATA 	Mouse:  Left button up, pos=(424,299)
+24.6291 	EXP 	mouse_none: autoDraw = False
+24.6291 	EXP 	image: autoDraw = True
+24.9814 	DATA 	Mouse: Left button down, pos=(424,299)
+24.9818 	EXP 	New trial (rep=26, index=1): <Trial 53 (1 in rep 26) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 53, 'thisTrialN': 1, 'thisRepN': 26}>
+24.9946 	EXP 	mouse_none: autoDraw = False
+24.9946 	EXP 	image: autoDraw = False
+24.9946 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+24.9946 	EXP 	mouse_none: autoDraw = True
+25.1316 	DATA 	Mouse:  Left button up, pos=(424,299)
+25.1967 	EXP 	mouse_none: autoDraw = False
+25.1967 	EXP 	image: autoDraw = True
+25.3686 	DATA 	Mouse: Right button down, pos=(424,299)
+25.3691 	EXP 	New trial (rep=27, index=0): <Trial 54 (0 in rep 27) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 54, 'thisTrialN': 0, 'thisRepN': 27}>
+25.3781 	EXP 	mouse_none: autoDraw = False
+25.3781 	EXP 	image: autoDraw = False
+25.3781 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+25.3781 	EXP 	mouse_none: autoDraw = True
+25.4862 	DATA 	Mouse:  Right button up, pos=(424,299)
+25.5781 	EXP 	mouse_none: autoDraw = False
+25.5781 	EXP 	image: autoDraw = True
+25.6991 	DATA 	Mouse: Left button down, pos=(424,299)
+25.6995 	EXP 	New trial (rep=27, index=1): <Trial 55 (1 in rep 27) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 55, 'thisTrialN': 1, 'thisRepN': 27}>
+25.7119 	EXP 	mouse_none: autoDraw = False
+25.7119 	EXP 	image: autoDraw = False
+25.7119 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+25.7119 	EXP 	mouse_none: autoDraw = True
+25.8683 	DATA 	Mouse:  Left button up, pos=(424,299)
+25.9136 	EXP 	mouse_none: autoDraw = False
+25.9136 	EXP 	image: autoDraw = True
+26.1482 	DATA 	Mouse: Right button down, pos=(424,299)
+26.1490 	EXP 	New trial (rep=28, index=0): <Trial 56 (0 in rep 28) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 56, 'thisTrialN': 0, 'thisRepN': 28}>
+26.1617 	EXP 	mouse_none: autoDraw = False
+26.1617 	EXP 	image: autoDraw = False
+26.1617 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+26.1617 	EXP 	mouse_none: autoDraw = True
+26.2495 	DATA 	Mouse:  Right button up, pos=(424,299)
+26.3610 	EXP 	mouse_none: autoDraw = False
+26.3610 	EXP 	image: autoDraw = True
+26.5302 	DATA 	Mouse: Left button down, pos=(424,299)
+26.5305 	EXP 	New trial (rep=28, index=1): <Trial 57 (1 in rep 28) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 57, 'thisTrialN': 1, 'thisRepN': 28}>
+26.5450 	EXP 	mouse_none: autoDraw = False
+26.5450 	EXP 	image: autoDraw = False
+26.5450 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+26.5450 	EXP 	mouse_none: autoDraw = True
+26.6327 	DATA 	Mouse:  Left button up, pos=(424,299)
+26.7447 	EXP 	mouse_none: autoDraw = False
+26.7447 	EXP 	image: autoDraw = True
+27.0480 	DATA 	Mouse: Left button down, pos=(424,299)
+27.0484 	EXP 	New trial (rep=29, index=0): <Trial 58 (0 in rep 29) data={'mouse_stim_side': 'stimuli/mouse_right.jpg', 'thisN': 58, 'thisTrialN': 0, 'thisRepN': 29}>
+27.0613 	EXP 	mouse_none: autoDraw = False
+27.0613 	EXP 	image: autoDraw = False
+27.0613 	EXP 	image: image = 'stimuli/mouse_right.jpg'
+27.0613 	EXP 	mouse_none: autoDraw = True
+27.1646 	DATA 	Mouse:  Left button up, pos=(424,299)
+27.2632 	EXP 	mouse_none: autoDraw = False
+27.2632 	EXP 	image: autoDraw = True
+27.4315 	DATA 	Mouse: Right button down, pos=(424,299)
+27.4321 	EXP 	New trial (rep=29, index=1): <Trial 59 (1 in rep 29) data={'mouse_stim_side': 'stimuli/mouse_left.jpg', 'thisN': 59, 'thisTrialN': 1, 'thisRepN': 29}>
+27.4446 	EXP 	mouse_none: autoDraw = False
+27.4446 	EXP 	image: autoDraw = False
+27.4446 	EXP 	image: image = 'stimuli/mouse_left.jpg'
+27.4446 	EXP 	mouse_none: autoDraw = True
+27.5330 	DATA 	Mouse:  Right button up, pos=(424,299)
+27.6448 	EXP 	mouse_none: autoDraw = False
+27.6448 	EXP 	image: autoDraw = True
+27.9173 	DATA 	Mouse: Left button down, pos=(424,299)
+27.9445 	EXP 	mouse_none: autoDraw = False
+27.9445 	EXP 	image: autoDraw = False
+27.9465 	EXP 	mouse: status = STOPPED
+27.9666 	INFO 	saved data to 'C:\\Users\\delgr\\Projects\\mouseGame\\data\\pilot_mouse_2025-06-17_21h56.45.079.csv'
+27.9680 	INFO 	saved data to C:\Users\delgr\Projects\mouseGame\data\pilot_mouse_2025-06-17_21h56.45.079.psydat
+28.0466 	DEBUG 	Saving data for mouse ExperimentHandler
+28.0491 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

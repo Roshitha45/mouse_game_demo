@@ -1,0 +1,142 @@
+4.3292 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+4.3301 	INFO 	Loaded monitor calibration from ['2025_06_17 20:17']
+4.4636 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+4.4636 	INFO 	OpenGL version supported by driver is 4..
+4.4803 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025E68A09510>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000025E68A094B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000025E68AB6DA0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(300.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+4.4804 	EXP 	window1: backgroundImage = ''
+4.4804 	EXP 	window1: backgroundFit = 'none'
+4.5044 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.5203 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.5363 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.5526 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.5701 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.5865 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6034 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6213 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6398 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6566 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6741 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.6919 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.7095 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.7274 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.7450 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.7625 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.7798 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.7970 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8142 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8320 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8492 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.8498 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.8570 	DEBUG 	Upload of Texture Font fontname complete
+4.8823 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9013 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9189 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.9194 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.9246 	DEBUG 	Upload of Texture Font fontname complete
+4.9275 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+4.9276 	EXP 	window1: recordFrameIntervals = False
+5.0954 	EXP 	window1: recordFrameIntervals = True
+5.2776 	EXP 	Screen (0) actual frame rate measured at 60.45Hz
+5.2776 	EXP 	window1: recordFrameIntervals = False
+5.2952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3078 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3206 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3336 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3478 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3639 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3795 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.3934 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4070 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4202 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4207 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.4212 	DEBUG 	Upload of Texture Font fontname complete
+5.7233 	INFO 	keyboard.Keyboard is using ptb backend.
+5.7234 	EXP 	mouse: status = STARTED
+5.7452 	EXP 	Created mouse_none = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/mouse_none.jpg', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='mouse_none', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+5.7518 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='stimuli/mouse_left.jpg', interpolate=True, mask='stimuli/mouse_mask.jpg', maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+0.0140 	DEBUG 	Read csv file with pandas: conditions.csv
+0.0149 	DEBUG 	Clearing unnamed columns from conditions.csv
+0.0153 	EXP 	Imported conditions.csv as conditions, 8 conditions, 2 params
+0.0157 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'isi': np.float64(0.1), 'side': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.0261 	EXP 	mouse_none: autoDraw = True
+0.0261 	EXP 	mouse_none: autoDraw = False
+0.0261 	EXP 	image: autoDraw = True
+1.5104 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'isi': np.float64(0.3), 'side': 'right', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+1.5257 	EXP 	image: autoDraw = False
+1.5257 	EXP 	mouse_none: autoDraw = False
+1.5257 	EXP 	image: autoDraw = False
+1.5257 	EXP 	mouse_none: autoDraw = True
+1.5257 	EXP 	mouse_none: autoDraw = False
+1.5257 	EXP 	image: autoDraw = True
+2.4126 	DATA 	Mouse: Left button down, pos=(463,263)
+2.4129 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'isi': np.float64(0.4), 'side': 'right', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+2.4256 	EXP 	mouse_none: autoDraw = False
+2.4256 	EXP 	image: autoDraw = False
+2.4256 	EXP 	mouse_none: autoDraw = True
+2.4256 	EXP 	mouse_none: autoDraw = False
+2.4256 	EXP 	image: autoDraw = True
+2.4972 	DATA 	Mouse:  Left button up, pos=(463,263)
+3.0314 	DATA 	Mouse: Left button down, pos=(698,171)
+3.0320 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'isi': np.float64(0.3), 'side': 'left', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3.0433 	EXP 	mouse_none: autoDraw = False
+3.0433 	EXP 	image: autoDraw = False
+3.0433 	EXP 	mouse_none: autoDraw = True
+3.0433 	EXP 	mouse_none: autoDraw = False
+3.0433 	EXP 	image: autoDraw = True
+3.1290 	DATA 	Mouse:  Left button up, pos=(698,171)
+3.4799 	DATA 	Mouse: Left button down, pos=(451,313)
+3.4803 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'isi': np.float64(0.1), 'side': 'left', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+3.4929 	EXP 	mouse_none: autoDraw = False
+3.4929 	EXP 	image: autoDraw = False
+3.4929 	EXP 	mouse_none: autoDraw = True
+3.4929 	EXP 	mouse_none: autoDraw = False
+3.4929 	EXP 	image: autoDraw = True
+3.5635 	DATA 	Mouse:  Left button up, pos=(451,313)
+3.6461 	DATA 	Mouse: Left button down, pos=(451,313)
+3.6466 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'isi': np.float64(0.4), 'side': 'left', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+3.6591 	EXP 	mouse_none: autoDraw = False
+3.6591 	EXP 	image: autoDraw = False
+3.6591 	EXP 	mouse_none: autoDraw = True
+3.6591 	EXP 	mouse_none: autoDraw = False
+3.6591 	EXP 	image: autoDraw = True
+3.7304 	DATA 	Mouse:  Left button up, pos=(451,313)
+3.7970 	DATA 	Mouse: Left button down, pos=(451,313)
+3.7975 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'isi': np.float64(0.2), 'side': 'left', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+3.8102 	EXP 	mouse_none: autoDraw = False
+3.8102 	EXP 	image: autoDraw = False
+3.8102 	EXP 	mouse_none: autoDraw = True
+3.8102 	EXP 	mouse_none: autoDraw = False
+3.8102 	EXP 	image: autoDraw = True
+3.8962 	DATA 	Mouse:  Left button up, pos=(451,313)
+4.0119 	DATA 	Mouse: Left button down, pos=(451,313)
+4.0124 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'isi': np.float64(0.2), 'side': 'right', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+4.0264 	EXP 	mouse_none: autoDraw = False
+4.0264 	EXP 	image: autoDraw = False
+4.0264 	EXP 	mouse_none: autoDraw = True
+4.0264 	EXP 	mouse_none: autoDraw = False
+4.0264 	EXP 	image: autoDraw = True
+4.0974 	DATA 	Mouse:  Left button up, pos=(451,313)
+5.5136 	EXP 	New trial (rep=1, index=0): <Trial 8 (0 in rep 1) data={'isi': np.float64(0.4), 'side': 'right', 'thisN': 8, 'thisTrialN': 0, 'thisRepN': 1}>
+5.5260 	EXP 	image: autoDraw = False
+5.5260 	EXP 	mouse_none: autoDraw = False
+5.5260 	EXP 	image: autoDraw = False
+5.5260 	EXP 	mouse_none: autoDraw = True
+5.5260 	EXP 	mouse_none: autoDraw = False
+5.5260 	EXP 	image: autoDraw = True
+7.0119 	EXP 	New trial (rep=1, index=1): <Trial 9 (1 in rep 1) data={'isi': np.float64(0.1), 'side': 'right', 'thisN': 9, 'thisTrialN': 1, 'thisRepN': 1}>
+7.0261 	EXP 	image: autoDraw = False
+7.0261 	EXP 	mouse_none: autoDraw = False
+7.0261 	EXP 	image: autoDraw = False
+7.0261 	EXP 	mouse_none: autoDraw = True
+7.0261 	EXP 	mouse_none: autoDraw = False
+7.0261 	EXP 	image: autoDraw = True
+7.6814 	DATA 	Keypress: escape
+7.6853 	EXP 	Device response: <KeyPress from None: t=7.6808576999465, value=escape, duration=None>
+7.7468 	EXP 	Device response: <KeyPress from None: t=7.6808576999465, value=escape, duration=0.0632826000219211>
+7.7469 	EXP 	mouse: status = STOPPED
+7.7598 	EXP 	image: autoDraw = False
+7.7625 	EXP 	mouse: status = STOPPED
+7.7754 	INFO 	saved data to 'C:\\Users\\delgr\\Projects\\mouseGame\\data\\pilot_mouse_2025-06-17_21h27.06.717.csv'
+7.7764 	INFO 	saved data to C:\Users\delgr\Projects\mouseGame\data\pilot_mouse_2025-06-17_21h27.06.717.psydat
+7.8965 	DEBUG 	Saving data for mouse ExperimentHandler
+7.9012 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

@@ -1,0 +1,84 @@
+3.4069 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+3.4075 	INFO 	Loaded monitor calibration from ['2025_06_17 20:17']
+3.5197 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+3.5197 	INFO 	OpenGL version supported by driver is 4..
+3.5341 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F3DC6A61A0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001F3DC6A6140>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001F3DC757A30>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(300.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+3.5341 	EXP 	window1: backgroundImage = ''
+3.5342 	EXP 	window1: backgroundFit = 'none'
+3.5563 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5711 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.5858 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6018 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6176 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6337 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6501 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6666 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.6830 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.7002 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.7172 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.7344 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.7520 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.7697 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.7869 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.8060 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.8241 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.8422 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.8599 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.8780 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.8952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.8958 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.9033 	DEBUG 	Upload of Texture Font fontname complete
+3.9282 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9459 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9631 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+3.9636 	DEBUG 	Uploading Texture Font fontname to graphics card
+3.9694 	DEBUG 	Upload of Texture Font fontname complete
+3.9725 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+3.9725 	EXP 	window1: recordFrameIntervals = False
+4.1381 	EXP 	window1: recordFrameIntervals = True
+4.3216 	EXP 	Screen (0) actual frame rate measured at 60.23Hz
+4.3217 	EXP 	window1: recordFrameIntervals = False
+4.3415 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.3550 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.3691 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.3839 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4000 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4137 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4268 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4404 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4541 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4677 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+4.4682 	DEBUG 	Uploading Texture Font fontname to graphics card
+4.4687 	DEBUG 	Upload of Texture Font fontname complete
+4.8302 	INFO 	keyboard.Keyboard is using ptb backend.
+4.8303 	EXP 	mouse: status = STARTED
+4.8660 	EXP 	Created welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='welcome', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Hi!', units='height', win=Window(...), wrapWidth=1)
+4.8660 	EXP 	Created brush = <psychopy.visual.brush.Brush object at 0x000001F3E803B430>
+0.0034 	EXP 	brush: autoLog = True
+0.0034 	EXP 	brush: autoDraw = False
+0.0058 	EXP 	Resetting brush
+0.0211 	EXP 	welcome: autoDraw = True
+1.2261 	DATA 	Mouse: Left button down, pos=(245,337)
+1.7268 	DATA 	Mouse:  Left button up, pos=(437,488)
+1.9077 	DATA 	Mouse: Left button down, pos=(589,407)
+1.9914 	EXP 	Resetting brush parameter: brushPos.
+1.9914 	EXP 	Creating ShapeStim for brush
+2.0041 	EXP 	brush: autoDraw = True
+3.3094 	DATA 	Mouse:  Left button up, pos=(49,273)
+3.4746 	DATA 	Mouse: Left button down, pos=(48,319)
+3.4747 	EXP 	Resetting brush parameter: brushPos.
+3.4747 	EXP 	Creating ShapeStim for brush
+4.4575 	DATA 	Mouse:  Left button up, pos=(635,373)
+4.8932 	DATA 	Mouse: Left button down, pos=(680,476)
+4.8933 	EXP 	Resetting brush parameter: brushPos.
+4.8933 	EXP 	Creating ShapeStim for brush
+5.0213 	EXP 	welcome: autoDraw = False
+5.2601 	DATA 	Mouse:  Left button up, pos=(256,227)
+7.0043 	EXP 	brush: autoDraw = False
+7.0043 	EXP 	welcome: autoDraw = False
+7.0043 	EXP 	brush: autoDraw = False
+7.0062 	EXP 	mouse: status = STOPPED
+7.0084 	INFO 	saved data to 'C:\\Users\\delgr\\Projects\\mouseGame\\data\\pilot_mouse_2025-06-17_20h25.26.062.csv'
+7.0092 	INFO 	saved data to C:\Users\delgr\Projects\mouseGame\data\pilot_mouse_2025-06-17_20h25.26.062.psydat
+7.1417 	DEBUG 	Saving data for mouse ExperimentHandler
+7.1448 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

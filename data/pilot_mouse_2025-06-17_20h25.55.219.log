@@ -1,0 +1,80 @@
+5.1969 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+5.1977 	INFO 	Loaded monitor calibration from ['2025_06_17 20:17']
+5.3393 	INFO 	Using renderer 'Intel(R) Iris(R) Xe Graphics' for graphics
+5.3393 	INFO 	OpenGL version supported by driver is 4..
+5.3579 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024CC73361A0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000024CC7336140>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000024CC73E7A30>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(560.0), np.float64(300.0)], screen=0, size=array([800, 600]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.3580 	EXP 	window1: backgroundImage = ''
+5.3580 	EXP 	window1: backgroundFit = 'none'
+5.3879 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4080 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4288 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4513 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4738 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.4963 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.5194 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.5433 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.5659 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.5894 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6140 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6382 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6619 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.6852 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7082 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7312 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7552 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.7796 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8027 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8278 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8512 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8519 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.8625 	DEBUG 	Upload of Texture Font fontname complete
+5.8957 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9190 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9414 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9421 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.9483 	DEBUG 	Upload of Texture Font fontname complete
+5.9518 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.9518 	EXP 	window1: recordFrameIntervals = False
+6.1283 	EXP 	window1: recordFrameIntervals = True
+6.3130 	EXP 	Screen (0) actual frame rate measured at 59.52Hz
+6.3131 	EXP 	window1: recordFrameIntervals = False
+6.3339 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3483 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3630 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3779 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.3923 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4066 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4211 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4358 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4506 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4652 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.4657 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.4663 	DEBUG 	Upload of Texture Font fontname complete
+6.8986 	INFO 	keyboard.Keyboard is using ptb backend.
+6.8986 	EXP 	mouse: status = STARTED
+6.9431 	EXP 	Created welcome = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='welcome', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Hi!', units='height', win=Window(...), wrapWidth=1)
+6.9432 	EXP 	Created brush = <psychopy.visual.brush.Brush object at 0x0000024CD2CDB430>
+0.0162 	EXP 	brush: autoLog = True
+0.0162 	EXP 	brush: autoDraw = False
+0.0193 	EXP 	Resetting brush
+0.0392 	EXP 	welcome: autoDraw = True
+1.3886 	DATA 	Mouse: Left button down, pos=(184,383)
+1.9221 	DATA 	Mouse:  Left button up, pos=(487,435)
+2.0006 	EXP 	brush: autoDraw = True
+2.1869 	DATA 	Mouse: Left button down, pos=(592,421)
+2.1870 	EXP 	Resetting brush parameter: brushPos.
+2.1870 	EXP 	Creating ShapeStim for brush
+4.2878 	DATA 	Mouse:  Left button up, pos=(691,56)
+4.8034 	DATA 	Mouse: Left button down, pos=(659,93)
+4.8035 	EXP 	Resetting brush parameter: brushPos.
+4.8035 	EXP 	Creating ShapeStim for brush
+5.0505 	EXP 	welcome: autoDraw = False
+6.5202 	DATA 	Mouse:  Left button up, pos=(480,325)
+7.0007 	EXP 	brush: autoDraw = False
+7.0007 	EXP 	welcome: autoDraw = False
+7.0007 	EXP 	brush: autoDraw = False
+7.0035 	EXP 	mouse: status = STOPPED
+7.0164 	INFO 	saved data to 'C:\\Users\\delgr\\Projects\\mouseGame\\data\\pilot_mouse_2025-06-17_20h25.55.219.csv'
+7.0173 	INFO 	saved data to C:\Users\delgr\Projects\mouseGame\data\pilot_mouse_2025-06-17_20h25.55.219.psydat
+7.1546 	DEBUG 	Saving data for mouse ExperimentHandler
+7.1607 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
