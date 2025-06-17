@@ -13,7 +13,7 @@
     <Param val="" valType="str" updates="None" name="HTML path"/>
     <Param val="" valType="str" updates="None" name="Incomplete URL"/>
     <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
-    <Param val="['stimuli/mouse_left_letter.jpg', 'stimuli/mouse_right_letter.jpg', 'stimuli/mouse.jpg', 'stimuli/mouse_left.jpg', 'stimuli/mouse_mask.jpg', 'stimuli/mouse_none.jpg', 'stimuli/mouse_right.jpg']" valType="list" updates="None" name="Resources"/>
+    <Param val="['conditions.csv', 'conditions_letter.csv', 'stimuli/mouse_left_letter.jpg', 'stimuli/mouse_right_letter.jpg', 'stimuli/mouse.jpg', 'stimuli/mouse_left.jpg', 'stimuli/mouse_mask.jpg', 'stimuli/mouse_none.jpg', 'stimuli/mouse_right.jpg']" valType="list" updates="None" name="Resources"/>
     <Param val="False" valType="bool" updates="None" name="Save csv file"/>
     <Param val="False" valType="bool" updates="None" name="Save excel file"/>
     <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
@@ -478,7 +478,7 @@
     <LoopInitiator loopType="TrialHandler" name="trials_2">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[OrderedDict([('mouse_stim_side', 'stimuli/mouse_left_letter.jpg')]), OrderedDict([('mouse_stim_side', 'stimuli/mouse_right_letter.jpg')])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="conditions_letter2.csv" valType="file"/>
+      <Param name="conditionsFile" updates="None" val="conditions_letter.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
       <Param name="loopType" updates="None" val="random" valType="str"/>

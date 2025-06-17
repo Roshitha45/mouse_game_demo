@@ -72,12 +72,14 @@ psychoJS.start({
     {'name': 'conditions.csv', 'path': 'conditions.csv'},
     {'name': 'stimuli/mouse_left.jpg', 'path': 'stimuli/mouse_left.jpg'},
     {'name': 'stimuli/mouse_right.jpg', 'path': 'stimuli/mouse_right.jpg'},
-    {'name': 'conditions_letter2.csv', 'path': 'conditions_letter2.csv'},
+    {'name': 'conditions_letter.csv', 'path': 'conditions_letter.csv'},
     {'name': 'stimuli/mouse_left_letter.jpg', 'path': 'stimuli/mouse_left_letter.jpg'},
     {'name': 'stimuli/mouse_right_letter.jpg', 'path': 'stimuli/mouse_right_letter.jpg'},
     {'name': 'stimuli/mouse_none.jpg', 'path': 'stimuli/mouse_none.jpg'},
     {'name': 'stimuli/mouse_mask.jpg', 'path': 'stimuli/mouse_mask.jpg'},
     {'name': 'default.png', 'path': 'https://pavlovia.org/assets/default/default.png'},
+    {'name': 'conditions.csv', 'path': 'conditions.csv'},
+    {'name': 'conditions_letter.csv', 'path': 'conditions_letter.csv'},
     {'name': 'stimuli/mouse_left_letter.jpg', 'path': 'stimuli/mouse_left_letter.jpg'},
     {'name': 'stimuli/mouse_right_letter.jpg', 'path': 'stimuli/mouse_right_letter.jpg'},
     {'name': 'stimuli/mouse.jpg', 'path': 'stimuli/mouse.jpg'},
@@ -671,7 +673,7 @@ function trials_2LoopBegin(trials_2LoopScheduler, snapshot) {
       psychoJS: psychoJS,
       nReps: 5, method: TrialHandler.Method.RANDOM,
       extraInfo: expInfo, originPath: undefined,
-      trialList: 'conditions_letter2.csv',
+      trialList: 'conditions_letter.csv',
       seed: undefined, name: 'trials_2'
     });
     psychoJS.experiment.addLoop(trials_2); // add the loop to the experiment
