@@ -618,7 +618,6 @@
     </Routine>
   </Routines>
   <Flow>
-    <Routine name="thank_you"/>
     <Routine name="instructions"/>
     <LoopInitiator loopType="TrialHandler" name="trials_3">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
