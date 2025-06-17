@@ -1,3 +1,3 @@
-mouse_stim_side
-stimuli/mouse_left_letter.jpg
-stimuli/mouse_right_letter.jpg
+mouse_stim_side,stim_type,stim_side
+stimuli/mouse_left_letter.jpg,letter,L
+stimuli/mouse_right_letter.jpg,letter,R
