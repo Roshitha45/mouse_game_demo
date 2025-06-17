@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.1.1),
-    on June 17, 2025, at 23:58
+    on June 18, 2025, at 00:21
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -647,7 +647,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trials_3 = data.TrialHandler2(
         name='trials_3',
-        nReps=2.0, 
+        nReps=1.0, 
         method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
@@ -1228,7 +1228,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             )
             # once done pausing, restore running status
             trials_3.status = STARTED
-    # completed 2.0 repeats of 'trials_3'
+    # completed 1.0 repeats of 'trials_3'
     trials_3.status = FINISHED
     
     
