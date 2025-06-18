@@ -619,20 +619,9 @@
   </Routines>
   <Flow>
     <Routine name="instructions"/>
-    <LoopInitiator loopType="TrialHandler" name="trials_3">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="None" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="" valType="file"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="isTrials" updates="None" val="False" valType="bool"/>
-      <Param name="loopType" updates="None" val="sequential" valType="str"/>
-      <Param name="nReps" updates="None" val="1" valType="num"/>
-      <Param name="name" updates="None" val="trials_3" valType="code"/>
-      <Param name="random seed" updates="None" val="" valType="code"/>
-    </LoopInitiator>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('mouse_stim_side', 'stimuli/mouse_left.jpg')]), OrderedDict([('mouse_stim_side', 'stimuli/mouse_right.jpg')])]" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('mouse_stim_side', 'stimuli/mouse_left.jpg'), ('stim_type', 'button'), ('stim_side', 'L')]), OrderedDict([('mouse_stim_side', 'stimuli/mouse_right.jpg'), ('stim_type', 'button'), ('stim_side', 'R')]), OrderedDict([('mouse_stim_side', 'stimuli/mouse_left.jpg'), ('stim_type', 'button'), ('stim_side', 'L')]), OrderedDict([('mouse_stim_side', 'stimuli/mouse_right.jpg'), ('stim_type', 'button'), ('stim_side', 'R')])]" valType="str"/>
       <Param name="conditionsFile" updates="None" val="conditions.csv" valType="file"/>
       <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
       <Param name="isTrials" updates="None" val="True" valType="bool"/>
@@ -643,20 +632,6 @@
     </LoopInitiator>
     <Routine name="trial"/>
     <LoopTerminator name="trials"/>
-    <LoopInitiator loopType="TrialHandler" name="trials_2">
-      <Param name="Selected rows" updates="None" val="" valType="str"/>
-      <Param name="conditions" updates="None" val="[OrderedDict([('mouse_stim_side', 'stimuli/mouse_left_letter.jpg')]), OrderedDict([('mouse_stim_side', 'stimuli/mouse_right_letter.jpg')])]" valType="str"/>
-      <Param name="conditionsFile" updates="None" val="conditions_letter.csv" valType="file"/>
-      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
-      <Param name="isTrials" updates="None" val="True" valType="bool"/>
-      <Param name="loopType" updates="None" val="random" valType="str"/>
-      <Param name="nReps" updates="None" val="5" valType="num"/>
-      <Param name="name" updates="None" val="trials_2" valType="code"/>
-      <Param name="random seed" updates="None" val="" valType="code"/>
-    </LoopInitiator>
-    <Routine name="trial_letter"/>
-    <LoopTerminator name="trials_2"/>
-    <LoopTerminator name="trials_3"/>
     <Routine name="thank_you"/>
   </Flow>
 </PsychoPy2experiment>

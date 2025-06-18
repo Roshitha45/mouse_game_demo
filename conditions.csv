@@ -1,3 +1,5 @@
 mouse_stim_side,stim_type,stim_side
 stimuli/mouse_left.jpg,button,L
 stimuli/mouse_right.jpg,button,R
+stimuli/mouse_left.jpg,button,L
+stimuli/mouse_right.jpg,button,R
